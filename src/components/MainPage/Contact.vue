@@ -1,0 +1,12 @@
+<script setup lang="ts">
+import ContactForm from '../ContactForm.vue';
+</script>
+
+<template>
+  <div class="flex flex-col gap-6 mt-16 font-montserrat font-medium">
+    <div class="w-1/3">
+      <span class="text-xl">ЗАПИСАТЬСЯ НА <span class="text-green-600">БЕСПЛАТНОЕ ПРОБНОЕ ЗАНЯТИЕ</span></span>
+    </div>
+    <ContactForm />
+  </div>
+</template>
