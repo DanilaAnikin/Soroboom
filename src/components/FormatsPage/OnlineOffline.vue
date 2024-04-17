@@ -21,7 +21,7 @@
       <img src="../../assets/AtSchool.png">
       <div class="text-center flex flex-col gap-2 shadow-sm shadow-slate-400 pt-12 px-8 pb-5 w-10/12 rounded-2xl bg-white -mt-8">
         <span>
-          Занятие проводится<span class="font-semibold"> один раз в неделю </span> и состоит из<span class="font-semibold"> двух уроков по 35-45 мин</span> с профессиональным тренером
+          Занятие проводится<span class="font-semibold"> один раз в неделю</span> и состоит из<span class="font-semibold"> двух уроков по 35-45 мин</span> с профессиональным тренером
         </span>
         <span>Soroboom в группах до 10-ти чел</span>
       </div>
