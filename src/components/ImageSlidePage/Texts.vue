@@ -12,10 +12,12 @@ const texts = ref<string[]>([
 </script>
 
 <template>
-  <div v-for="(text, index) in texts">
-    <Check :color="index%2==0 ? '#EC6A1F' : '#42BE63'" :size="12" />
-    <span>
-      {{ text }}
-    </span>
+  <div class="flex justify-end flex-col gap-4 -mt-32">
+    <div v-for="(text, index) in texts" class="flex justify-between gap-3">
+      <Check :color="index%2==0 ? '#42BE63' : '#EC6A1F'" :size="25" class="w-1/12"/>
+      <span class="w-11/12">
+        {{ text }}
+      </span>
+    </div>
   </div>
 </template>

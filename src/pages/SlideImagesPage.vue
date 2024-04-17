@@ -4,8 +4,8 @@ import Texts from '../components/ImageSlidePage/Texts.vue';
 </script>
 
 <template>
-  <div class="">
+  <div class="font-montserrat">
       <Slider />
-      <Texts class="ml-[70%]" />
+      <Texts class="ml-[65%]" />
   </div>
 </template>

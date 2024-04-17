@@ -6,6 +6,7 @@ import Fourth from './components/Fourth.vue';
 import Formats from './components/Formats.vue';
 import Sixth from './components/Sixth.vue';
 import SlideImages from './components/SlideImages.vue';
+import EightPage from './components/EightPage.vue';
 </script>
 
 <template>
@@ -16,4 +17,5 @@ import SlideImages from './components/SlideImages.vue';
   <Formats class="w-full flex justify-center" />
   <Sixth class="w-full flex justify-center" />
   <SlideImages class="w-full flex justify-center" />
+  <EightPage />
 </template>
