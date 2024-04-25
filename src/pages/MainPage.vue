@@ -7,9 +7,9 @@ import Flex from '../components/MainPage/Flex.vue';
 </script>
 
 <template>
-    <Navbar />
-    <Navigation />
-    <Text />
-    <Contact />
-    <Flex />
+  <Navbar />
+  <Navigation />
+  <Text />
+  <Contact />
+  <Flex />
 </template>

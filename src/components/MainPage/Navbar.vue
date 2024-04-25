@@ -29,7 +29,7 @@ import Phone from '../../icons/Phone.vue';
         <Phone :size="14" color="white" />
         <div class="border-l border-white h-2"></div>
         <div class="flex gap-1 items-center">
-          <span class="font-montserrat text-sm">ЗАКАЗАТЬ ЗВОНОК</span>
+          <span class="font-montserrat text-sm font-semibold">ЗАКАЗАТЬ ЗВОНОК</span>
         </div>
       </div>
       </div>

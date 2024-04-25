@@ -10,6 +10,9 @@ import Eight from './components/Eight.vue';
 import Apps from './components/Apps.vue';
 import SystemWorking from './components/SystemWorking.vue';
 import WeAreCool from './components/WeAreCool.vue';
+import KidLike from './components/KidLike.vue';
+import Line from './components/Line.vue';
+import Last from './components/Last.vue';
 </script>
 
 <template>
@@ -24,4 +27,7 @@ import WeAreCool from './components/WeAreCool.vue';
   <Apps class="w-full flex justify-center" />
   <SystemWorking class="w-full flex justify-center" />
   <WeAreCool class="w-full flex justify-center" />
+  <KidLike class="w-full flex justify-center" />
+  <Line class="w-full flex justify-center" />
+  <Last class="w-full flex justify-center" />
 </template>
