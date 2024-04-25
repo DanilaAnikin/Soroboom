@@ -8,6 +8,7 @@ import Sixth from './components/Sixth.vue';
 import SlideImages from './components/SlideImages.vue';
 import Eight from './components/Eight.vue';
 import Apps from './components/Apps.vue';
+import SystemWorking from './components/SystemWorking.vue';
 import WeAreCool from './components/WeAreCool.vue';
 </script>
 
@@ -21,5 +22,6 @@ import WeAreCool from './components/WeAreCool.vue';
   <SlideImages class="w-full flex justify-center" />
   <Eight class="w-full flex justify-center" />
   <Apps class="w-full flex justify-center" />
+  <SystemWorking class="w-full flex justify-center" />
   <WeAreCool class="w-full flex justify-center" />
 </template>
