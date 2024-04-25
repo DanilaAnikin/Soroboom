@@ -7,6 +7,8 @@ import Formats from './components/Formats.vue';
 import Sixth from './components/Sixth.vue';
 import SlideImages from './components/SlideImages.vue';
 import Eight from './components/Eight.vue';
+import Apps from './components/Apps.vue';
+import WeAreCool from './components/WeAreCool.vue';
 </script>
 
 <template>
@@ -18,4 +20,6 @@ import Eight from './components/Eight.vue';
   <Sixth class="w-full flex justify-center" />
   <SlideImages class="w-full flex justify-center" />
   <Eight class="w-full flex justify-center" />
+  <Apps class="w-full flex justify-center" />
+  <WeAreCool class="w-full flex justify-center" />
 </template>

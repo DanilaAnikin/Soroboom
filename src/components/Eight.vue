@@ -12,6 +12,6 @@ import EightPage from '../pages/EightPage.vue';
 
 <style scoped>
 .whole-div {
-  background: linear-gradient(180deg, rgba(8, 255, 0, 0) 0%, rgba(8, 255, 0, 0.1) 52%, rgba(8, 255, 0, 0) 100%); 
+  background: linear-gradient(180deg, rgba(8, 255, 0, 0) 0%, rgba(8, 255, 0, 0.08) 52%, rgba(8, 255, 0, 0) 100%); 
 }
 </style>
