@@ -11,14 +11,14 @@ const uluchshim = ref<string[]>([
 </script>
 
 <template>
-  <div class="font-montserrat w-1/2 mt-20">
+  <div class="font-montserrat sm:w-1/2 sm:mt-20 mt-16 sm:px-0 px-4 flex flex-col gap-6">
     <span class="font-bold text-4xl">Ментальная арифметика - <span class="text-[#EC6A1F]">Развитие интиллекта</span></span>
-    <div class="my-8">
+    <div class="sm:my-8 sm:mt-0 mt-96">
       <span class="font-semibold">Улучшим:</span>
       <div class="flex w-full flex-wrap">
-        <div v-for="(each, index) in uluchshim" class="flex w-1/2 gap-3 items-center py-2">
+        <div v-for="(each, index) in uluchshim" class="flex w-1/2 sm:gap-3 gap-2 items-center py-2">
           <Check :size="25" :color="`${ index == 0 || index == 3 ? '#42BE63' : '#EC6A1F'}`" />
-          <span class="w-7/12">{{ each }}</span>
+          <span class="sm:w-7/12 w-full">{{ each }}</span>
         </div>
       </div>
     </div>

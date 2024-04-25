@@ -6,22 +6,22 @@ import Tasks from '../../icons/Tasks.vue';
 </script>
 
 <template>
-  <div class="flex justify-between w-full font-montserrat mt-20">
-    <div class="w-[24%] flex flex-col items-center bg-white shadow-sm shadow-slate-300 px-4 pb-12 gap-6 rounded-2xl">
-      <div class="flex flex-col items-center gap-4">
+  <div class="flex sm:flex-row flex-col justify-between w-full font-montserrat mt-20 sm:px-0 px-6 sm:gap-0 gap-12">
+    <div class="sm:w-[24%] flex flex-col items-center bg-white sm:shadow-sm shadow-md shadow-slate-300 px-2 sm:px-4 sm:pb-12 pb-6 sm:gap-6 gap-2 rounded-2xl">
+      <div class="flex flex-col items-center sm:gap-4 gap-2">
         <div class="p-[15px] rounded-[48px] bg-[#EC6A1F] -mt-8">
           <HandStars color="white" :size="44" />
         </div>
         <span class="font-semibold text-xl"><span class="text-[#EC6A1F]">Ценные</span> навыки</span>
       </div>
-      <div class="text-center flex flex-col items-center break-words gap-2">
+      <div class="text-center flex flex-col items-center break-words sm:gap-2 gap-1">
         <span>· Быстрота реакции</span>
         <span>· Логическое мышление</span>
         <span>· Уверенность в себе</span>
         <span>· Усваивать большие объемы информации</span>
       </div>
     </div>
-    <div class="w-[24%] flex flex-col items-center bg-white shadow-sm shadow-slate-300 px-6 pb-8 gap-6 rounded-2xl">
+    <div class="sm:w-[24%] flex flex-col items-center bg-white sm:shadow-sm shadow-md shadow-slate-300 px-2 sm:px-4 sm:pb-12 pb-6 sm:gap-6 gap-2 rounded-2xl">
       <div class="flex flex-col items-center gap-4">
         <div class="p-[15px] rounded-[44px] bg-[#EC6A1F] -mt-8">
           <ChatHeart color="white" :size="40" />
@@ -34,7 +34,7 @@ import Tasks from '../../icons/Tasks.vue';
         <span>· Повышение успеваемости в школе на 78%</span>
       </div>
     </div>
-    <div class="w-[24%] flex flex-col items-center bg-white shadow-sm shadow-slate-300 px-6 pb-8 gap-6 rounded-2xl">
+    <div class="sm:w-[24%] flex flex-col items-center bg-white sm:shadow-sm shadow-md shadow-slate-300 px-2 sm:px-4 sm:pb-12 pb-6 sm:gap-6 gap-2 rounded-2xl">
       <div class="flex flex-col items-center gap-4">
         <div class="p-[15px] rounded-[44px] bg-[#EC6A1F] -mt-8">
           <Tasks color="white" :size="40" />
@@ -47,7 +47,7 @@ import Tasks from '../../icons/Tasks.vue';
         <span>· КПД головного мозга</span>
       </div>
     </div>
-    <div class="w-[24%] flex flex-col items-center bg-white shadow-sm shadow-slate-300 px-6 pb-8 gap-6 rounded-2xl">
+    <div class="sm:w-[24%] flex flex-col items-center bg-white sm:shadow-sm shadow-md shadow-slate-300 px-2 sm:px-4 sm:pb-12 pb-6 sm:gap-6 gap-2 rounded-2xl">
       <div class="flex flex-col items-center gap-4">
         <div class="p-[15px] rounded-[44px] bg-[#EC6A1F] -mt-8">
           <Backpack color="white" :size="40" />
