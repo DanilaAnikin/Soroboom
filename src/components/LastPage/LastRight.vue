@@ -3,8 +3,9 @@
 </script>
 
 <template>
-  <div class="w-1/3 flex flex-col gap-8">
+  <div class="sm:w-1/3 w-full flex flex-col gap-8">
     <span class="font-semibold text-xl">СОРОБАН® В ДРУГИХ СТРАНАХ</span>
-    <img src="../../assets/Countries.png" class="w-1/2" >
+    <img src="../../assets/Countries.png" class="sm:flex hidden w-1/2">
+    <img src="../../assets/MobileCountries.png" class="sm:hidden w-full">
   </div>
 </template>

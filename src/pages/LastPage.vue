@@ -5,7 +5,7 @@ import LastRight from '../components/LastPage/LastRight.vue';
 </script>
 
 <template>
-  <div class="flex gap-8">
+  <div class="flex sm:gap-8 gap-12 flex-col sm:flex-row">
     <LastLeft />
     <LastCenter />
     <LastRight />

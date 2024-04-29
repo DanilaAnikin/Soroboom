@@ -9,6 +9,6 @@ import LinePage from '../pages/LinePage.vue';
     </div>
   </div>
   <div class="absolute z-[-1] mt-[-100px]">
-    <img src="../assets/Line.png">
+    <img class="sm:flex hidden" src="../assets/Line.png">
   </div>
 </template>

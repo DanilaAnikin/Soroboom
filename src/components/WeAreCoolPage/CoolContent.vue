@@ -3,7 +3,7 @@ import Stars from '../Stars.vue'
 </script>
 
 <template>
-  <div class="flex justify-center gap-3">
+  <div class="flex justify-center gap-3 sm:flex-row flex-col sm:mt-0 mt-6">
     <div>
       <img src="../../assets/Review1.png" class="ml-12" >
       <div class="bg-[#E7FCE7] px-8 py-12 -mt-12 rounded-2xl">

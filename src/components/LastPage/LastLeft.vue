@@ -6,11 +6,11 @@ import Youtube from '../../icons/Youtube.vue';
 </script>
 
 <template>
-  <div class="flex flex-col w-1/3">
+  <div class="flex flex-col sm:w-1/3 w-full">
     <span class="font-semibold">©Copyright 2013-2024 by Iurii Novosolov</span>
     <span class="font-semibold">Все права защищены.</span>
     <span class="mt-6">Запрещено любое копирование материалов ресурса без письменного согласия владельца.</span>
-    <div class="flex gap-8 mt-28">
+    <div class="flex gap-8 sm:mt-28 mt-12">
       <Facebook />
       <Instagram />
       <Youtube />
