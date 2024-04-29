@@ -12,7 +12,7 @@ const texts = ref<string[]>([
 </script>
 
 <template>
-  <div class="flex justify-end flex-col gap-4 -mt-32">
+  <div class="flex justify-end flex-col gap-4 sm:-mt-32 w-11/12 sm:w-5/12">
     <div v-for="(text, index) in texts" class="flex justify-between gap-3">
       <Check :color="index%2==0 ? '#42BE63' : '#EC6A1F'" :size="25" class="w-1/12"/>
       <span class="w-11/12">

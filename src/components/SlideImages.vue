@@ -4,7 +4,7 @@ import SlideImagesPage from '../pages/SlideImagesPage.vue';
 
 <template>
   <div class="w-full flex justify-center mt-32">
-    <div class="w-8/12">
+    <div class="sm:w-8/12 w-full">
       <SlideImagesPage />
     </div>
   </div>

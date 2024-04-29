@@ -5,9 +5,11 @@ import Puzzle from '../components/VideoPage/Puzzle.vue';
 </script>
 
 <template>
-  <Title />
-  <div class="flex justify-center gap-4">
-    <Video />
-    <Puzzle />
+  <div class="flex items-center flex-col">
+    <Title />
+    <div class="flex justify-center items-center gap-4 sm:flex-row flex-col">
+      <Video />
+      <Puzzle />
+    </div>
   </div>
 </template>

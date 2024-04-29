@@ -4,7 +4,7 @@ import EightPage from '../pages/EightPage.vue';
 
 <template>
   <div class="w-full flex justify-center font-montserrat mt-32 whole-div">
-    <div class="w-8/12">
+    <div class="sm:w-8/12 w-11/12">
       <EightPage />
     </div>
   </div>

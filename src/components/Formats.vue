@@ -4,7 +4,7 @@ import FormatsPage from '../pages/FormatsPage.vue';
 
 <template>
   <div class="w-full flex justify-center">
-    <div class="w-8/12">
+    <div class="sm:w-8/12 w-full">
       <FormatsPage />
     </div>
   </div>

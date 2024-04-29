@@ -13,13 +13,17 @@ import WeAreCool from './components/WeAreCool.vue';
 import KidLike from './components/KidLike.vue';
 import Line from './components/Line.vue';
 import Last from './components/Last.vue';
+import MobilePinkPage from './components/MobilePinkPage.vue';
+import FourthMobile from './components/FourthMobile.vue';
 </script>
 
 <template>
   <Main class="w-full flex justify-center" />
   <Second class="w-full flex justify-center" />
   <Third class="w-full flex justify-center" />
-  <Fourth class="w-full flex justify-center" />
+  <MobilePinkPage class="w-full flex justify-center sm:hidden" />
+  <Fourth class="w-full sm:flex hidden justify-center" />
+  <FourthMobile class="w-full sm:hidden justify-center" />
   <Formats class="w-full flex justify-center" />
   <Sixth class="w-full flex justify-center" />
   <SlideImages class="w-full flex justify-center" />

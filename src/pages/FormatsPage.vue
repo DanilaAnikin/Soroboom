@@ -3,7 +3,7 @@ import OnlineOffline from '../components/FormatsPage/OnlineOffline.vue';
 </script>
 
 <template>
-  <div class="mt-8 flex justify-center">
+  <div class="mt-8 flex justify-center sm:pt-0 pt-8">
     <span class="text-3xl font-semibold font-montserrat">Форматы<span class="text-[#EC6A1F]"> обучения</span></span>
   </div>
   <OnlineOffline />

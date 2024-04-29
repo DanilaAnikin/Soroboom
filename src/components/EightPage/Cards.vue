@@ -16,7 +16,7 @@ import Check from '../../icons/Check.vue';
       <div class="flex flex-col items-center">
         <div class="rounded-2xl p-px bg-gradient-to-b from-[#42BE63] to-[#c5ffd4] mt-32">
           <div class="bg-white py-8 px-6 rounded-2xl">
-            <span>Отслеживание прогресса<span class="font-semibold"> в 2 клика</span></span>
+            <span>Эффективность обучения<span class="font-semibold"> повышается на 65%</span></span>
           </div>
         </div>
         <Check :size="25" color="#42BE63" class="-mt-32" />
@@ -26,15 +26,15 @@ import Check from '../../icons/Check.vue';
       <div class="flex flex-col items-center">
         <div class="rounded-2xl p-px bg-gradient-to-b from-[#42BE63] to-[#c5ffd4] mt-8">
           <div class="bg-white py-8 px-6 rounded-2xl">
-            <span>Отслеживание прогресса<span class="font-semibold"> в 2 клика</span></span>
+            <span class="font-semibold">Индивидуальный подход<span class="font-light"> к ученику</span></span>
           </div>
         </div>
         <Check :size="25" color="#42BE63" class="-mt-32" />
       </div>
       <div class="flex flex-col items-center">
         <div class="rounded-2xl p-px bg-gradient-to-b from-[#EC6A1F] to-[#ffdfcd] mt-32">
-          <div class="bg-white py-8 px-6 rounded-2xl">
-            <span>Отслеживание прогресса<span class="font-semibold"> в 2 клика</span></span>
+          <div class="bg-white py-5 px-6 rounded-2xl">
+            <span>Запатентованнная<span class="font-semibold"> технология No1 на рынке</span> детского образования</span>
           </div>
         </div>
         <Check :size="25" color="#EC6A1F" class="-mt-32" />

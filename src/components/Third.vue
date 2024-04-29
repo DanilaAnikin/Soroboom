@@ -4,7 +4,7 @@ import VideoPage from '../pages/VideoPage.vue';
 
 <template>
   <div class="w-full flex justify-center font-montserrat">
-    <div class="w-8/12">
+    <div class="sm:w-8/12 w-full">
       <VideoPage />
     </div>
   </div>

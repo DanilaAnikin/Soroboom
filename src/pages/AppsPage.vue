@@ -7,7 +7,7 @@ import AppsContent from '../components/AppsPage/AppsContent.vue';
   <div class="flex flex-col gap-8">
     <AppsHeader />
     <div class="flex flex-col items-center">
-        <AppsContent />
+      <AppsContent />
     </div>
   </div>
 </template>
