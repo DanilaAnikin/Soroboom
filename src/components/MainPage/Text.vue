@@ -11,7 +11,7 @@ const uluchshim = ref<string[]>([
 </script>
 
 <template>
-  <div class="font-montserrat sm:w-1/2 sm:mt-20 mt-16 sm:px-0 px-4 flex flex-col gap-6">
+  <div class="font-montserrat sm:w-1/2 sm:mt-20 mt-12 sm:px-0 px-4 flex flex-col gap-6">
     <span class="font-bold text-4xl">Ментальная арифметика - <span class="text-[#EC6A1F]">Развитие интиллекта</span></span>
     <div class="sm:my-8 sm:mt-0 mt-96">
       <span class="font-semibold">Улучшим:</span>

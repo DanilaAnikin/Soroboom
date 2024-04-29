@@ -4,6 +4,6 @@
 
 <template>
   <div>
-    <img src="../assets/SystemWorking.png" >
+    <img class="sm:flex hidden" src="../assets/SystemWorking.png" >
   </div>
 </template>

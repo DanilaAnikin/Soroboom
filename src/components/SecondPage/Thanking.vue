@@ -10,6 +10,10 @@
           <span class="font-semibold">Уникальная методика активизирует работу обоих полушарий мозга ребенка.</span> Во время тренировок ребенок использует японские счеты соробан как средство для решения задач, вовлекая в это свое воображение.
       </span>
       <img class="mobile:hidden sm:flex w-9/12" src="../../assets/Likes.png" alt="likes">
+      <div class="sm:hidden w-full">
+        <img class=" w-full" src="../../assets/MobileThankingTop.png" alt="likes">
+        <img class="w-full" src="../../assets/MobileThanking.png" alt="likes">
+      </div>
     </div>
   </div>
 </template>
