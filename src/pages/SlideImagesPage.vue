@@ -4,9 +4,9 @@ import Texts from '../components/ImageSlidePage/Texts.vue';
 </script>
 
 <template>
-  <div class="font-montserrat sm:block flex justify-center sm:flex-row items-center flex-col">
+  <div class="font-montserrat flex justify-center xl:flex-row gap-8 items-center flex-col">
     <span class="sm:hidden text-3xl font-semibold">Как проходят<span class="text-[#EC6A1F]"> занятия</span></span>
     <Slider />
-    <Texts class="sm:ml-[65%]" />
+    <Texts />
   </div>
 </template>
