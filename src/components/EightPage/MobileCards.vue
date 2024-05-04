@@ -11,12 +11,12 @@ const texts = ref<string[]>([
 </script>
 
 <template>
-  <div class="sm:hidden">
+  <div class="sm:hidden flex items-center w-full flex-col">
     <img src="../../assets/CalculatorImage.png" class="sm:w-5/12 my-8 sm:my-0">
     <span class="font-bold text-xl">Инновационный метод обучения</span>
   </div>
-  <div class="flex justify-center  w-11/12">
-    <div class="sm:hidden flex justify-end flex-col gap-4 sm:-mt-32 mt-6 text-start">
+  <div class="flex justify-center w-11/12">
+    <div class="sm:hidden flex justify-end flex-col w-10/12 gap-4 sm:-mt-32 mt-6 text-start">
       <div v-for="(text, index) in texts" class="flex justify-between gap-3">
         <Check :color="index%2==0 ? '#42BE63' : '#EC6A1F'" :size="25" class="w-1/12"/>
         <span class="w-11/12">
