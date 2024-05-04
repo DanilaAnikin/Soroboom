@@ -9,5 +9,4 @@ import Thanking from '../components/SecondPage/Thanking.vue';
     <span class="text-3xl font-semibold sm:text-start text-center">Подарите своему ребёнку <span class="text-[#EC6A1F]">лучший старт в жизни!</span></span>
   </div>
   <Modules />
-  <Thanking />
 </template>

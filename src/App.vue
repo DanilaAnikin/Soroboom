@@ -15,11 +15,15 @@ import Line from './components/Line.vue';
 import Last from './components/Last.vue';
 import MobilePinkPage from './components/MobilePinkPage.vue';
 import FourthMobile from './components/FourthMobile.vue';
+import Photo from './components/Photo.vue';
+import MobilePhoto from './components/MobilePhoto.vue';
 </script>
 
 <template>
   <Main class="w-full flex justify-center" />
   <Second class="w-full flex justify-center" />
+  <Photo class="w-full sm:flex hidden justify-start" />
+  <MobilePhoto class="w-full sm:hidden justify-start" />
   <Third class="w-full flex justify-center" />
   <MobilePinkPage class="w-full flex justify-center sm:hidden" />
   <Fourth class="w-full sm:flex hidden justify-center" />
