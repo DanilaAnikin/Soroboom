@@ -8,6 +8,9 @@ export default {
     extend: {
       fontFamily: {
         'montserrat': ['Montserrat'],
+      },
+      backgroundImage: {
+        'skills-image': "url(./src/assets/SkillsImage.png)"
       }
     },
     screens: {
