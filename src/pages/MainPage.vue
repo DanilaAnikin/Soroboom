@@ -8,7 +8,7 @@ import Flex from '../components/MainPage/Flex.vue';
 
 <template>
   <Navbar />
-  <Navigation class="mobile:hidden" />
+  <Navigation class="mobile:hidden sm:flex" />
   <Text />
   <Contact />
   <Flex />

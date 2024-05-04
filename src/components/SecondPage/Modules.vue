@@ -12,13 +12,13 @@ import Tasks from '../../icons/Tasks.vue';
         <div class="p-[15px] rounded-[48px] bg-[#EC6A1F] -mt-8">
           <HandStars color="white" :size="44" />
         </div>
-        <span class="font-semibold text-xl"><span class="text-[#EC6A1F]">Ценные</span> навыки</span>
+        <span class="font-semibold text-xl"><span class="text-[#EC6A1F]">Ценные Cenné</span> навыки zkušenosti</span>
       </div>
       <div class="text-center flex flex-col items-center break-words sm:gap-2 gap-1">
-        <span>· Быстрота реакции</span>
-        <span>· Логическое мышление</span>
-        <span>· Уверенность в себе</span>
-        <span>· Усваивать большие объемы информации</span>
+        <span>· Быстрота реакции Rychlost reakcí</span>
+        <span>· Логическое мышление Logické myšlení</span>
+        <span>· Уверенность в себе Sebejistota</span>
+        <span>· Усваивать большие объемы информации Ukládat více informací </span>
       </div>
     </div>
     <div class="xl:w-[24%] flex flex-col items-center bg-white sm:shadow-md shadow-md shadow-slate-500 px-2 sm:px-4 sm:pb-12 pb-6 sm:gap-6 gap-2 rounded-2xl">
@@ -26,12 +26,12 @@ import Tasks from '../../icons/Tasks.vue';
         <div class="p-[15px] rounded-[44px] bg-[#EC6A1F] -mt-8">
           <ChatHeart color="white" :size="40" />
         </div>
-        <span class="font-semibold text-xl text-[#EC6A1F]">Преимущества</span>
+        <span class="font-semibold text-xl text-[#EC6A1F]">Преимущества Výhody</span>
       </div>
       <div class="text-center flex flex-col items-center break-words gap-2">
-        <span>· Улучшение концентрации внимания</span>
-        <span>· Точные науки даются легко</span>
-        <span>· Повышение успеваемости в школе на 78%</span>
+        <span>· Улучшение концентрации внимания Zlepšení koncentrace vnímání</span>
+        <span>· Точные науки даются легко Lehce se dají přírodní vědy</span>
+        <span>· Повышение успеваемости в школе на 78% Zlepšení ve výuce ve škole na 78%</span>
       </div>
     </div>
     <div class="xl:w-[24%] flex flex-col items-center bg-white sm:shadow-md shadow-md shadow-slate-500 px-2 sm:px-4 sm:pb-12 pb-6 sm:gap-6 gap-2 rounded-2xl">
@@ -39,10 +39,10 @@ import Tasks from '../../icons/Tasks.vue';
         <div class="p-[15px] rounded-[44px] bg-[#EC6A1F] -mt-8">
           <Tasks color="white" :size="40" />
         </div>
-        <span class="font-semibold text-xl text-[#EC6A1F]">Развитие</span>
+        <span class="font-semibold text-xl text-[#EC6A1F]">Развитие Vývoj</span>
       </div>
       <div class="text-center flex flex-col items-center break-words gap-2">
-        <span>· Обоих полушарий мозга левое ( логическое ) правое ( образное )</span>
+        <span>· Обоих полушарий мозга левое ( логическое ) правое ( образное ) Obou </span>
         <span>· Когнитивных функций</span>
         <span>· КПД головного мозга</span>
       </div>

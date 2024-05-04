@@ -4,6 +4,12 @@ import Location from '../../icons/Location.vue';
 import World from '../../icons/World.vue';
 import Phone from '../../icons/Phone.vue';
 import Menu from '../../icons/Menu.vue';
+import { ref } from 'vue';
+import { CheckIcon } from '@heroicons/vue/24/solid';
+
+
+const selectedLanguage = ref<"RU" | "CZ">("RU");
+const selectorOpened = ref<boolean>(true);
 </script>
 
 <template>
@@ -17,25 +23,40 @@ import Menu from '../../icons/Menu.vue';
         <div class="p-[15px] rounded-3xl bg-[#EC6A1F]">
           <Location color="white" :size="20" />
         </div>
-        <span class="font-montserrat px-4 text-sm">ПРАГА</span>
+        <span class="font-montserrat px-4 text-sm">{{ selectedLanguage === 'RU' ? 'ПРАГА' : 'PRAHA'}}</span>
       </div>
     </div>
     <div class="flex h-fit justify-between items-center w-1/3">
-      <div class="mobile:hidden sm:flex text-white items-center gap-4 p-4 rounded-3xl bg-[#FFFFFF33] h-fit">
-        <World :size="14" color="white" />
-        <div class="border-l border-white h-2"></div>
-        <div class="flex gap-1 items-center">
-          <span class="font-montserrat text-sm">RU</span>
-          <SmallArrowDown :size="14" color="white" />
+      <div class="mobile:hidden sm:flex cursor-pointer">
+        <div @click="selectorOpened = !selectorOpened" class="sm:flex text-white items-center gap-4 p-4 rounded-3xl bg-[#FFFFFF33] h-fit">
+          <World :size="14" color="white" />
+          <div class="border-l border-white h-2"></div>
+          <div class="flex gap-1 items-center">
+            <span class="font-montserrat text-sm">{{ selectedLanguage }}</span>
+            <SmallArrowDown :size="14" color="white" />
+          </div>
+        </div>
+        <div v-if="selectorOpened" class="absolute top-20 py-3 px-3 w-[6%] bg-[#FFFFFF66] bg-opacity-50 rounded-2xl">
+          <div class="gap-2 flex flex-col">
+            <div @click="selectedLanguage = 'RU'" class="flex justify-between">
+              <span>RU</span>
+              <CheckIcon v-if="selectedLanguage === 'RU'" class="w-6 h-6 text-green-700" />
+            </div>
+            <hr class="border-slate-500 w-full">
+            <div @click="selectedLanguage = 'CZ'" class="flex justify-between">
+              <span>CZ</span>
+              <CheckIcon v-if="selectedLanguage === 'CZ'" class="w-6 h-6 text-green-700" />
+            </div>
+          </div>
         </div>
       </div>
-      <div class="sm:m-0 ml-14 flex text-white items-center gap-4 p-4 rounded-3xl bg-[#EC6A1F] h-fit">
+      <div class="sm:m-0 ml-14 flex text-white items-center gap-4 p-4 rounded-3xl bg-[#EC6A1F] h-fit cursor-pointer">
         <Phone :size="14" color="white" />
         <div class="mobile:hidden sm:flex border-l border-white h-2"></div>
         <div class="mobile:hidden sm:flex gap-1 items-center">
-          <span class="font-montserrat text-sm font-semibold">ЗАКАЗАТЬ ЗВОНОК</span>
+          <span class="font-montserrat text-sm font-semibold">{{ selectedLanguage === 'RU' ? 'ЗАКАЗАТЬ ЗВОНОК' : 'ŽÁDAT O HOVOR'}}</span>
         </div>
       </div>
-      </div>
+    </div>
   </div>
 </template>

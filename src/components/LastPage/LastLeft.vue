@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import Facebook from '../../icons/Facebook.vue';
 import Instagram from '../../icons/Instagram.vue';
-import Telegram from '../../icons/Telegram.vue';
+import Whatsapp from '../../icons/Whatsapp.vue';
 import Youtube from '../../icons/Youtube.vue';
 </script>
 
@@ -14,7 +14,7 @@ import Youtube from '../../icons/Youtube.vue';
       <Facebook />
       <Instagram />
       <Youtube />
-      <Telegram />
+      <Whatsapp />
     </div>
   </div>
 </template>
