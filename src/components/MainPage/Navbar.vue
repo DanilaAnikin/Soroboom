@@ -7,9 +7,16 @@ import Menu from '../../icons/Menu.vue';
 import { ref } from 'vue';
 import { CheckIcon } from '@heroicons/vue/24/solid';
 
+const emit = defineEmits<{
+  (e: 'change-language', newLanguage: 'RU' | 'CZ' | 'EN'): void
+}>();
 
-const selectedLanguage = ref<"RU" | "CZ">("RU");
-const selectorOpened = ref<boolean>(true);
+const props = defineProps<{
+  language: string,
+}>();
+
+const selectedLanguage = ref<string>(props.language);
+const selectorOpened = ref<boolean>(false);
 </script>
 
 <template>
@@ -23,7 +30,7 @@ const selectorOpened = ref<boolean>(true);
         <div class="p-[15px] rounded-3xl bg-[#EC6A1F]">
           <Location color="white" :size="20" />
         </div>
-        <span class="font-montserrat px-4 text-sm">{{ selectedLanguage === 'RU' ? 'ПРАГА' : 'PRAHA'}}</span>
+        <span class="font-montserrat px-4 text-sm">{{ language === 'RU' ? 'ПРАГА' : 'PRAHA'}}</span>
       </div>
     </div>
     <div class="flex h-fit justify-between items-center w-1/3">
@@ -32,20 +39,25 @@ const selectorOpened = ref<boolean>(true);
           <World :size="14" color="white" />
           <div class="border-l border-white h-2"></div>
           <div class="flex gap-1 items-center">
-            <span class="font-montserrat text-sm">{{ selectedLanguage }}</span>
+            <span class="font-montserrat text-sm">{{ language }}</span>
             <SmallArrowDown :size="14" color="white" />
           </div>
         </div>
-        <div v-if="selectorOpened" class="absolute top-20 py-3 px-3 w-[6%] bg-[#FFFFFF66] bg-opacity-50 rounded-2xl">
+        <div v-if="selectorOpened" class="absolute ml-4 top-[5.5%] py-2 px-3 w-[6%] bg-[#FFFFFF66] bg-opacity-50 rounded-2xl font-montserrat">
           <div class="gap-2 flex flex-col">
-            <div @click="selectedLanguage = 'RU'" class="flex justify-between">
+            <div @click="selectedLanguage = 'RU'; emit('change-language', 'RU')" class="flex justify-between">
               <span>RU</span>
               <CheckIcon v-if="selectedLanguage === 'RU'" class="w-6 h-6 text-green-700" />
             </div>
             <hr class="border-slate-500 w-full">
-            <div @click="selectedLanguage = 'CZ'" class="flex justify-between">
+            <div @click="selectedLanguage = 'CZ'; emit('change-language', 'CZ')" class="flex justify-between">
               <span>CZ</span>
               <CheckIcon v-if="selectedLanguage === 'CZ'" class="w-6 h-6 text-green-700" />
+            </div>
+            <hr class="border-slate-500 w-full">
+            <div @click="selectedLanguage = 'EN'; emit('change-language', 'EN')" class="flex justify-between">
+              <span>EN</span>
+              <CheckIcon v-if="selectedLanguage === 'EN'" class="w-6 h-6 text-green-700" />
             </div>
           </div>
         </div>
