@@ -30,7 +30,7 @@ const selectorOpened = ref<boolean>(false);
         <div class="p-[15px] rounded-3xl bg-[#EC6A1F]">
           <Location color="white" :size="20" />
         </div>
-        <span class="font-montserrat px-4 text-sm">{{ language === 'RU' ? 'ПРАГА' : 'PRAHA'}}</span>
+        <span class="font-montserrat px-4 text-sm">{{ $t('first.prague') }}</span>
       </div>
     </div>
     <div class="flex h-fit justify-between items-center w-1/3">
@@ -39,7 +39,7 @@ const selectorOpened = ref<boolean>(false);
           <World :size="14" color="white" />
           <div class="border-l border-white h-2"></div>
           <div class="flex gap-1 items-center">
-            <span class="font-montserrat text-sm">{{ language }}</span>
+            <span class="font-montserrat text-sm">{{ $t('language') }}</span>
             <SmallArrowDown :size="14" color="white" />
           </div>
         </div>
@@ -66,7 +66,7 @@ const selectorOpened = ref<boolean>(false);
         <Phone :size="14" color="white" />
         <div class="mobile:hidden sm:flex border-l border-white h-2"></div>
         <div class="mobile:hidden sm:flex gap-1 items-center">
-          <span class="font-montserrat text-sm font-semibold">{{ selectedLanguage === 'RU' ? 'ЗАКАЗАТЬ ЗВОНОК' : 'ŽÁDAT O HOVOR'}}</span>
+          <span class="font-montserrat text-sm font-semibold">{{ $t('first.get_call') }}</span>
         </div>
       </div>
     </div>
