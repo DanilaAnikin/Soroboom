@@ -1,11 +1,15 @@
 <script setup lang="ts">
 import EightPage from '../pages/EightPage.vue';
+
+defineProps<{
+  language: string,
+}>();
 </script>
 
 <template>
   <div class="w-full flex justify-center font-montserrat sm:mt-32 mt-20 whole-div">
     <div class="sm:w-8/12 w-11/12">
-      <EightPage />
+      <EightPage :language />
     </div>
   </div>
 </template>

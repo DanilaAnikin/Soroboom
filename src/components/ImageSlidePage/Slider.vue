@@ -1,7 +1,5 @@
 <script setup lang="ts">
 import Arrow from '../../icons/Arrow.vue';
-
-
 </script>
 
 <template>

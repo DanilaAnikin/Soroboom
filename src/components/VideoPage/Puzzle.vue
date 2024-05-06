@@ -1,5 +1,8 @@
 <script setup lang="ts">
 
+defineProps<{
+  language: string,
+}>();
 </script>
 
 <template>
@@ -8,7 +11,7 @@
       <img class="sm:w-1/2 w-9/12" src="../../assets/Puzzles.png">
     </div>
     <div class="w-10/12">
-      <span>результаты уже<span class="text-[#EC6A1F]"> после 1-го месяца</span> тренировок</span>
+      <span>{{ language == 'RU' ? 'результаты уже' : language == 'EN' ? '' : 'výsledky už' }}<span class="text-[#EC6A1F]">{{ language == 'RU' ? ' после 1-го месяца' : language == 'EN' ? '' : ' po 1. měsíci' }}</span>{{ language == 'RU' ? ' тренировок' : language == 'EN' ? '' : ' tréninků'}}</span>
     </div>
   </div>
 </template>
