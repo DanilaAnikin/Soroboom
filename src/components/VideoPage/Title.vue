@@ -7,6 +7,6 @@ defineProps<{
 
 <template>
   <div class="text-center py-12 flex justify-center sm:w-full w-11/12">
-    <span class="font-semibold text-3xl">{{ language == 'RU' ? 'Методика Soroboom®, способствует созданию и укреплению' : language == 'EN' ? '' : 'Metoda Soroboom®, pomáhá vytváření a posilování' }}<span class="text-[#EC6A1F]">{{ language == 'RU' ? ' новых нейронных связей головного мозга ребенка' : language == 'EN' ? '' : ' nových nervových spojení mozku' }}</span></span>
+    <span class="font-semibold text-3xl">{{ $t('third.the_soroboom_technique') }} <span class="text-[#EC6A1F]">{{ $t('third.new_neural_connections') }}</span></span>
   </div>
 </template>

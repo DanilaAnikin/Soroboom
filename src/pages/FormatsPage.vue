@@ -8,7 +8,7 @@ defineProps<{
 
 <template>
   <div class="mt-8 flex justify-center sm:pt-0 pt-8">
-    <span class="text-3xl font-semibold font-montserrat">{{ language == 'RU' ? 'Форматы' : language == 'EN' ? '' : 'Typy' }}<span class="text-[#EC6A1F]">{{ language == 'RU' ? ' обучения' : language == 'EN' ? '' : ' lekcí' }}</span></span>
+    <span class="text-3xl font-semibold font-montserrat">{{ $t('formats.formats') }} <span class="text-[#EC6A1F]"> {{ $t('formats.of_education') }}</span></span>
   </div>
   <OnlineOffline :language />
 </template>

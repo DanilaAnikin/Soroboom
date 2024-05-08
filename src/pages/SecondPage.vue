@@ -8,7 +8,7 @@ defineProps<{
 
 <template>
   <div class="flex justify-center">
-    <span class="text-3xl font-semibold sm:text-start text-center">{{ language == 'RU' ? 'Подарите своему ребёнку' : language == 'EN' ? '' : 'Darujte svému dítěti' }}<span class="text-[#EC6A1F]"> {{ language == 'RU' ? 'лучший старт в жизни' : language == 'EN' ? '' : 'nejlepší start v životě' }}!</span></span>
+    <span class="text-3xl font-semibold sm:text-start text-center">{{ $t('second.give_your_child') }} <span class="text-[#EC6A1F]"> {{ $t('second.start') }}!</span></span>
   </div>
   <Modules :language />
 </template>
