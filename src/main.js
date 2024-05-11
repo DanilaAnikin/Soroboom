@@ -334,7 +334,7 @@ const i18n = createI18n({
           large_training: 'Velké trénovací nástěnné i podlahové počítadla',
           a_sofa: 'Pohovka, na které si mohou děti odpočinout během pauzy',
           showcase_of_a_store: 'Vitrína obchodu, ve kterém mohou děti získat odměny za mince Soroboom',
-          spacious_bright: 'Prostorové světlé kabinety  Просторные светлые кабинеты s potřebným školním vybavením a demonstračnými materiály',
+          spacious_bright: 'Prostorové světlé kabinety s potřebným školním vybavením a demonstračnými materiály',
         }
       },
       eight: {
@@ -408,6 +408,207 @@ const i18n = createI18n({
         },
         right: {
           countries: 'SOROBOOM® V JINÝCH ZEMÍCH',
+        }
+      }
+    },
+    en: {
+      language: 'EN',
+      first: {
+        navbar: {
+          prague: 'Prague',
+          get_call: 'GET CALL',
+        },
+        navigation: {
+          timetable: 'timetable',
+          what_is_soroboom: 'What is Soroboom',
+          blog: 'Blog',
+          gallery: 'Gallery',
+        },
+        text: {
+          menthal_arithmetic: 'Menthal arithmetic',
+          development_of_intelligence: 'development of inteligence',
+          improves: 'Improves',
+          speed_of_decision_making: 'speed of decision making',
+          concentration_of_attention: 'contentration of attention',
+          speed_of_reactions: 'speed of reactions',
+          memory: 'memory',
+          your_child: 'of your child',
+        },
+        contact: {
+          join: 'JOIN',
+          free_trial_lesson: 'FREE TRIAL LESSON',
+          contact_form: {
+            your_name: 'YOUR NAME',
+            your_phone_number: 'YOUR PHONE NUMBER',
+          }
+        },
+        flex: {
+          years_of_experience: 'years of experience',
+          in_child_development: 'in child development',
+          children: 'children',
+          trained: 'trained all over the world',
+          countries: 'countries',
+          online: 'online and offline development',
+        }
+      },
+      second: {
+        give_your_child: 'Give your child',
+        start: 'the best start in life',
+        modules: {
+          valuable: 'Valuable',
+          skills: 'skills',
+          speed_of_reactions: 'speed of reactions',
+          logical_thinking: 'Logical thinking',
+          self_confidence: 'Self-confidence',
+          absorb: 'Absorb much information',
+          benefits: 'Benefits',
+          improved_concentration: 'Improved concentration',
+          exact_sciences: 'Exact sciences are easy',
+          increased_school: 'Increased school performence by',
+          extension: 'extension',
+          both_hemispheres: 'Both hemisphere of brain left ( logistic ) right ( figurative )',
+          cognitive_functions: 'Cognitive functions',
+          brain_efficiency: 'Brain efficiency',
+          for: 'For',
+          preschoolers: 'preschoolers',
+          let_us_help: 'Let us help you with effort at school',
+          let_us_teach: 'Let us teach you basics of menthal arithmetic',
+          increase: 'Increase self-confidence of a child in his own forces',
+          developing: 'Developing fine motor skills',
+        }
+      },
+      thanking: {
+        thanks: 'Thanks to',
+        method: 'method',
+        child_trains: 'the child trains',
+        unique: 'Unique method activates employment of both hemispheres of a brain',
+        while: 'During training, the child uses the Japanese Soroboom counter as a means of solving problems, using his imagination',
+      },
+      third: {
+        the_soroboom_technique: 'Soroboom® technique helps for creation and strengthening',
+        new_neural_connections: "new neural connections of child's brain",
+        results_already: 'results already',
+        after_first_month: 'after first month',
+        of_training: 'of trainings',
+      },
+      mobile_pink_page: {
+        only: 'The child during training in Soroboom increases the productivity of the brain several times, thanks to which new neural connections are formed and strengthened',
+      },
+      formats: {
+        formats: 'Formats',
+        of_education: 'of education',
+        online_offline: {
+          online: 'Online',
+          the_class_is_held: 'the class is held',
+          once_a_week: 'once a week',
+          and_consists_of: 'and consists of',
+          two_classes: 'two classes by 35-45 min',
+          with_proffesional_trainer: 'with proffesional trainer',
+          in_groups_up_to_six_people: 'In groups up to 6 people',
+          in_school: 'At school',
+          in_groups_up_to_ten_people: 'In groups up to 10 people',
+        },
+      },
+      sixth: {
+        how_the_training_works: 'How the training works',
+        in_soroboom: 'in Soroboom®?',
+        visit: 'visit',
+        soroboom: 'Soroboom',
+        at_least_once_a_week: 'at least once a week',
+        modules: {
+          online: 'Online',
+          classes: 'classes',
+          you_will_need: 'You will need to have 2 electronic devices and internet connection',
+          thanks: 'Thanks to our own online lesson platform, the student learns with the same efficiency as at school',
+          home_workouts: 'Home workouts created using methodical algorithms using AI',
+          in_school: 'at school',
+          children_are_supervised: 'Children are supervised by a qualified coach during their time at school',
+          during_the_lesson: 'During the lesson, the trainer uses various forms of tasks, active even at the table',
+          thanks_to_small_groups: 'Thanks to smaller groups of up to 10 people, the coach pays maximum attention to each child',
+        },
+      },
+      slide_images: {
+        how_are_the_classes: 'How are the lessons',
+        conducted: 'held',
+        texts: {
+          tv_with_a_large_diagonal: 'A large television on which the trainer is played for training',
+          large_training: 'Large training wall and floor counters',
+          a_sofa: 'A sofa on which children can relax during a break',
+          showcase_of_a_store: 'A storefront where kids can earn Soroboom coin rewards',
+          spacious_bright: 'Spacious bright cabinets with the necessary school equipment and demonstration materials',
+        }
+      },
+      eight: {
+        calculator: {
+          electronic: 'Electronic',
+          abacus_e_soroboom: 'Abakus “E Soroboom“',
+          innovative_teaching_method: 'Innovative teaching method',
+        },
+        cards: {
+          progress_tracking: 'Progress tracking',
+          in_two_clicks: 'in 2 clicks',
+          training_effectiveness: 'Training effectiveness',
+          increases: 'increases by 65%',
+          individual_approach: 'Individual approach',
+          to_the_student: 'to the student',
+          patented: 'Patented',
+          technology_one: 'technology No1 in',
+          childrens_education: "children's education",
+        }
+      },
+      apps: {
+        header: {
+          try_our: 'Try our',
+          apps: 'apps',
+        },
+        content: {
+          soroboom_ar: 'Soroboom AR',
+          soroboom_lite: 'Soroboom Lite',
+        }
+      },
+      system_working: {
+        our_system_helps: 'Our system helps',
+        formation: 'forming and strengthening new nerve fibers of the brain',
+        child_thanks: 'child thanks to systematic training. We help the child to develop his intellect and logical thinking as much as possible, which will help him in all spheres of life',
+        innovative_teaching: 'An innovative teaching method developed by our specialists in the field of intellectual development in children',
+        implementation: 'AI implementation',
+        helps_individualy: 'helps to individually adapt the load for each child',
+        unique_system: 'Unique system of motivation in Soroboom',
+        helps_child: 'helps child',
+        self_confidence: '1. Increase self-confidence',
+        increase_motivation: '2. Increase motivatoin',
+        love_math: '3. Start loving math'
+      },
+      we_are_cool: {
+        header: {
+          said: 'They say',
+          we_are_cool: 'we are good',
+        },
+        content: {
+          marina: 'Marina Tkatch',
+          date1: '12.02.24',
+          thanks_trainer: 'Thanks to Coach Soroboom. The son always comes home cheerful and happy. It is very pleasant when working with children is a choice of the soul, not circumstances 🙏',
+          oksana: 'Oksana Lysenko',
+          happy: 'We are very happy that we chose Soroboom for our child. Visual progress after just a few lessons. The child goes to lessons with joy and inspiration',
+        }
+      },
+      kid_like: {
+        ten_years: 'In 10 years of our work in Ukraine, the method has been tried and perfected',
+        results: 'Results',
+        our_trainings: 'of our trainings are confirmed by the successes of our students'
+      },
+      last: {
+        left: {
+          copyright: '©Copyright 2013-2024 by Iurii Novosolov',
+          rights: 'All rights reserved',
+          copies: 'Any copying of materials without the written consent of the owner is prohibited'
+        },
+        center: {
+          menu: 'Menu',
+          franchise: 'Franchise',
+        },
+        right: {
+          countries: 'SOROBOOM® IN OTHER COUNTRIES',
         }
       }
     },
