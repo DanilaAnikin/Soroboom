@@ -3,10 +3,6 @@ import HandStars from '../../icons/HandStars.vue';
 import ChatHeart from '../../icons/ChatHeart.vue';
 import Backpack from '../../icons/Backpack.vue';
 import Tasks from '../../icons/Tasks.vue';
-
-defineProps<{
-  language: string
-}>();
 </script>
 
 <template>

@@ -1,14 +1,10 @@
 <script setup lang="ts">
 import Modules from '../components/SecondPage/Modules.vue';
-
-defineProps<{
-  language: string,
-}>();
 </script>
 
 <template>
   <div class="flex justify-center">
     <span class="text-3xl font-semibold sm:text-start text-center">{{ $t('second.give_your_child') }} <span class="text-[#EC6A1F]"> {{ $t('second.start') }}!</span></span>
   </div>
-  <Modules :language />
+  <Modules />
 </template>

@@ -8,10 +8,6 @@ const list = ref<string[]>([
   'speed_of_reactions',
   'memory'
 ]);
-
-defineProps<{
-  language: string
-}>();
 </script>
 
 <template>

@@ -1,9 +1,3 @@
-<script setup lang="ts">
-defineProps<{
-  language: string
-}>();
-</script>
-
 <template>
   <div class="sm:w-full sm:px-0 px-8 flex">
     <div class="flex flex-col gap-6 font-montserrat sm:w-1/2 text-center sm:text-start justify-end items-end">

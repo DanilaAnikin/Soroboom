@@ -14,7 +14,7 @@ import Youtube from '../../icons/Youtube.vue';
       <Facebook />
       <Instagram />
       <Youtube />
-      <Whatsapp />
+      <span>+420 777 323 336</span>
     </div>
   </div>
 </template>

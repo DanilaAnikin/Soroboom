@@ -1,9 +1,5 @@
 <script setup lang="ts">
 import Thanking from './SecondPage/Thanking.vue';
-
-defineProps<{
-  language: string,
-}>();
 </script>
 
 <template>
@@ -12,7 +8,7 @@ defineProps<{
       <img class="w-full" src="../assets/SkillsImage.png" >
     </div>
     <div class="sm:w-5/12 w-3/12">
-      <Thanking :language />
+      <Thanking />
     </div>
   </div>
 </template>

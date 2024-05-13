@@ -1,9 +1,3 @@
-<script setup lang="ts">
-defineProps<{
-  language: string,
-}>();
-</script>
-
 <template>
   <div class="flex justify-center sm:flex-row flex-col items-center sm:gap-4 gap-44 sm:mt-12 mt-8">
     <div class="flex flex-col w-11/12 sm:w-full items-center">

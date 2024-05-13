@@ -4,13 +4,13 @@ import App from './App.vue';
 import { createI18n } from 'vue-i18n';
 
 const i18n = createI18n({
-  locale: 'ru',
-  fallbackFormat: 'en',
-  messages: {
-    ru: {
+    locale: 'en',
+    fallbackLocale: 'ru',
+    messages: {
+      ru: {
       language: 'RU',
       first: {
-        navbar: {
+          navbar: {
           prague: 'ПРАГА',
           get_call: 'ЗАКАЗАТЬ ЗВОНОК',
         },
@@ -208,8 +208,8 @@ const i18n = createI18n({
           countries: 'СОРОБАН® В ДРУГИХ СТРАНАХ',
         }
       }
-    },
-    cz: {
+      },
+      cz: {
       language: 'CZ',
       first: {
         navbar: {
@@ -410,21 +410,21 @@ const i18n = createI18n({
           countries: 'SOROBOOM® V JINÝCH ZEMÍCH',
         }
       }
-    },
-    en: {
+      },
+      en: {
       language: 'EN',
       first: {
-        navbar: {
+          navbar: {
           prague: 'Prague',
           get_call: 'GET CALL',
-        },
-        navigation: {
-          timetable: 'timetable',
+          },
+          navigation: {
+          timetable: 'Timetable',
           what_is_soroboom: 'What is Soroboom',
           blog: 'Blog',
           gallery: 'Gallery',
-        },
-        text: {
+          },
+          text: {
           menthal_arithmetic: 'Menthal arithmetic',
           development_of_intelligence: 'development of inteligence',
           improves: 'Improves',
@@ -433,28 +433,29 @@ const i18n = createI18n({
           speed_of_reactions: 'speed of reactions',
           memory: 'memory',
           your_child: 'of your child',
-        },
-        contact: {
+          },
+          contact: {
           join: 'JOIN',
           free_trial_lesson: 'FREE TRIAL LESSON',
           contact_form: {
-            your_name: 'YOUR NAME',
-            your_phone_number: 'YOUR PHONE NUMBER',
+              your_name: 'YOUR NAME',
+              your_phone_number: 'YOUR PHONE NUMBER',
+              join: 'JOIN',
           }
-        },
-        flex: {
+          },
+          flex: {
           years_of_experience: 'years of experience',
           in_child_development: 'in child development',
           children: 'children',
           trained: 'trained all over the world',
           countries: 'countries',
           online: 'online and offline development',
-        }
+          }
       },
       second: {
-        give_your_child: 'Give your child',
-        start: 'the best start in life',
-        modules: {
+          give_your_child: 'Give your child',
+          start: 'the best start in life',
+          modules: {
           valuable: 'Valuable',
           skills: 'skills',
           speed_of_reactions: 'speed of reactions',
@@ -475,29 +476,29 @@ const i18n = createI18n({
           let_us_teach: 'Let us teach you basics of menthal arithmetic',
           increase: 'Increase self-confidence of a child in his own forces',
           developing: 'Developing fine motor skills',
-        }
+          }
       },
       thanking: {
-        thanks: 'Thanks to',
-        method: 'method',
-        child_trains: 'the child trains',
-        unique: 'Unique method activates employment of both hemispheres of a brain',
-        while: 'During training, the child uses the Japanese Soroboom counter as a means of solving problems, using his imagination',
+          thanks: 'Thanks to',
+          method: 'method',
+          child_trains: 'the child trains',
+          unique: 'Unique method activates employment of both hemispheres of a brain',
+          while: 'During training, the child uses the Japanese Soroboom counter as a means of solving problems, using his imagination',
       },
       third: {
-        the_soroboom_technique: 'Soroboom® technique helps for creation and strengthening',
-        new_neural_connections: "new neural connections of child's brain",
-        results_already: 'results already',
-        after_first_month: 'after first month',
-        of_training: 'of trainings',
+          the_soroboom_technique: 'Soroboom® technique helps for creation and strengthening',
+          new_neural_connections: "new neural connections of child's brain",
+          results_already: 'results already',
+          after_first_month: 'after first month',
+          of_training: 'of trainings',
       },
       mobile_pink_page: {
-        only: 'The child during training in Soroboom increases the productivity of the brain several times, thanks to which new neural connections are formed and strengthened',
+          only: 'The child during training in Soroboom increases the productivity of the brain several times, thanks to which new neural connections are formed and strengthened',
       },
       formats: {
-        formats: 'Formats',
-        of_education: 'of education',
-        online_offline: {
+          formats: 'Formats',
+          of_education: 'of education',
+          online_offline: {
           online: 'Online',
           the_class_is_held: 'the class is held',
           once_a_week: 'once a week',
@@ -507,15 +508,15 @@ const i18n = createI18n({
           in_groups_up_to_six_people: 'In groups up to 6 people',
           in_school: 'At school',
           in_groups_up_to_ten_people: 'In groups up to 10 people',
-        },
+          },
       },
       sixth: {
-        how_the_training_works: 'How the training works',
-        in_soroboom: 'in Soroboom®?',
-        visit: 'visit',
-        soroboom: 'Soroboom',
-        at_least_once_a_week: 'at least once a week',
-        modules: {
+          how_the_training_works: 'How the training works',
+          in_soroboom: 'in Soroboom®?',
+          visit: 'visit',
+          soroboom: 'Soroboom',
+          at_least_once_a_week: 'at least once a week',
+          modules: {
           online: 'Online',
           classes: 'classes',
           you_will_need: 'You will need to have 2 electronic devices and internet connection',
@@ -525,26 +526,26 @@ const i18n = createI18n({
           children_are_supervised: 'Children are supervised by a qualified coach during their time at school',
           during_the_lesson: 'During the lesson, the trainer uses various forms of tasks, active even at the table',
           thanks_to_small_groups: 'Thanks to smaller groups of up to 10 people, the coach pays maximum attention to each child',
-        },
+          },
       },
       slide_images: {
-        how_are_the_classes: 'How are the lessons',
-        conducted: 'held',
-        texts: {
+          how_are_the_classes: 'How are the lessons',
+          conducted: 'held',
+          texts: {
           tv_with_a_large_diagonal: 'A large television on which the trainer is played for training',
           large_training: 'Large training wall and floor counters',
           a_sofa: 'A sofa on which children can relax during a break',
           showcase_of_a_store: 'A storefront where kids can earn Soroboom coin rewards',
           spacious_bright: 'Spacious bright cabinets with the necessary school equipment and demonstration materials',
-        }
+          }
       },
       eight: {
-        calculator: {
+          calculator: {
           electronic: 'Electronic',
           abacus_e_soroboom: 'Abakus “E Soroboom“',
           innovative_teaching_method: 'Innovative teaching method',
-        },
-        cards: {
+          },
+          cards: {
           progress_tracking: 'Progress tracking',
           in_two_clicks: 'in 2 clicks',
           training_effectiveness: 'Training effectiveness',
@@ -554,68 +555,67 @@ const i18n = createI18n({
           patented: 'Patented',
           technology_one: 'technology No1 in',
           childrens_education: "children's education",
-        }
+          }
       },
       apps: {
-        header: {
+          header: {
           try_our: 'Try our',
           apps: 'apps',
-        },
-        content: {
+          },
+          content: {
           soroboom_ar: 'Soroboom AR',
           soroboom_lite: 'Soroboom Lite',
-        }
+          }
       },
       system_working: {
-        our_system_helps: 'Our system helps',
-        formation: 'forming and strengthening new nerve fibers of the brain',
-        child_thanks: 'child thanks to systematic training. We help the child to develop his intellect and logical thinking as much as possible, which will help him in all spheres of life',
-        innovative_teaching: 'An innovative teaching method developed by our specialists in the field of intellectual development in children',
-        implementation: 'AI implementation',
-        helps_individualy: 'helps to individually adapt the load for each child',
-        unique_system: 'Unique system of motivation in Soroboom',
-        helps_child: 'helps child',
-        self_confidence: '1. Increase self-confidence',
-        increase_motivation: '2. Increase motivatoin',
-        love_math: '3. Start loving math'
+          our_system_helps: 'Our system helps',
+          formation: 'forming and strengthening new nerve fibers of the brain',
+          child_thanks: 'child thanks to systematic training. We help the child to develop his intellect and logical thinking as much as possible, which will help him in all spheres of life',
+          innovative_teaching: 'An innovative teaching method developed by our specialists in the field of intellectual development in children',
+          implementation: 'AI implementation',
+          helps_individualy: 'helps to individually adapt the load for each child',
+          unique_system: 'Unique system of motivation in Soroboom',
+          helps_child: 'helps child',
+          self_confidence: '1. Increase self-confidence',
+          increase_motivation: '2. Increase motivatoin',
+          love_math: '3. Start loving math'
       },
       we_are_cool: {
-        header: {
+          header: {
           said: 'They say',
           we_are_cool: 'we are good',
-        },
-        content: {
+          },
+          content: {
           marina: 'Marina Tkatch',
           date1: '12.02.24',
           thanks_trainer: 'Thanks to Coach Soroboom. The son always comes home cheerful and happy. It is very pleasant when working with children is a choice of the soul, not circumstances 🙏',
           oksana: 'Oksana Lysenko',
           happy: 'We are very happy that we chose Soroboom for our child. Visual progress after just a few lessons. The child goes to lessons with joy and inspiration',
-        }
+          }
       },
       kid_like: {
-        ten_years: 'In 10 years of our work in Ukraine, the method has been tried and perfected',
-        results: 'Results',
-        our_trainings: 'of our trainings are confirmed by the successes of our students'
+          ten_years: 'In 10 years of our work in Ukraine, the method has been tried and perfected',
+          results: 'Results',
+          our_trainings: 'of our trainings are confirmed by the successes of our students'
       },
       last: {
-        left: {
+          left: {
           copyright: '©Copyright 2013-2024 by Iurii Novosolov',
           rights: 'All rights reserved',
           copies: 'Any copying of materials without the written consent of the owner is prohibited'
-        },
-        center: {
+          },
+          center: {
           menu: 'Menu',
           franchise: 'Franchise',
-        },
-        right: {
+          },
+          right: {
           countries: 'SOROBOOM® IN OTHER COUNTRIES',
-        }
+          }
       }
-    },
-  }
-});
+      },
+    }
+  })
 
-const app = createApp(App);
-
-app.use(i18n);
-app.mount('#app');
+createApp(App).
+use(i18n).
+mount('#app');

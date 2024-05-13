@@ -1,9 +1,5 @@
 <script setup lang="ts">
 import SixthModules from '../components/SixthPage/SixthModules.vue';
-
-defineProps<{
-  language: string,
-}>();
 </script>
 
 <template>
@@ -12,6 +8,6 @@ defineProps<{
     <span class="sm:w-full w-11/12 text-center">{{ $t('sixth.visit') }} Soroboom <span class="font-semibold"> {{ $t('sixth.at_least_once_a_week') }}</span></span>
     <img class="w-9/12 sm:flex hidden" src="../assets/SixthPage.png">
     <img class="w-full sm:hidden" src="../assets/MobileSixthPage.png">
-    <SixthModules :language />
+    <SixthModules />
   </div>
 </template>

@@ -1,10 +1,3 @@
-<script setup lang="ts">
-
-defineProps<{
-  language: string,
-}>();
-</script>
-
 <template>
   <div class="w-full justify-center flex py-10">
     <div class="font-montserrat py-8 w-11/12 rounded-2xl bg-[#FBE1D2] flex justify-center items-center text-center">

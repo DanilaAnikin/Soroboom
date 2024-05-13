@@ -1,9 +1,5 @@
 <script setup lang="ts">
 import ContactForm from '../ContactForm.vue';
-
-defineProps<{
-  language: string,
-}>();
 </script>
 
 <template>
@@ -11,6 +7,6 @@ defineProps<{
     <div class="sm:w-1/3">
       <span class="text-xl">{{ $t('first.contact.join') }} <span class="text-green-600">{{ $t('first.contact.free_trial_lesson') }}</span></span>
     </div>
-    <ContactForm :language />
+    <ContactForm />
   </div>
 </template>

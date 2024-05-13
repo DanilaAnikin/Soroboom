@@ -7,16 +7,11 @@ import Menu from '../../icons/Menu.vue';
 import { ref } from 'vue';
 import { CheckIcon } from '@heroicons/vue/24/solid';
 
-const emit = defineEmits<{
-  (e: 'change-language', newLanguage: 'RU' | 'CZ' | 'EN'): void
-}>();
-
-const props = defineProps<{
-  language: string,
-}>();
-
-const selectedLanguage = ref<string>(props.language);
 const selectorOpened = ref<boolean>(false);
+
+function x() {
+  i18n.locale = 'ru';
+}
 </script>
 
 <template>
@@ -45,19 +40,19 @@ const selectorOpened = ref<boolean>(false);
         </div>
         <div v-if="selectorOpened" class="absolute ml-4 top-[5.5%] py-2 px-3 w-[6%] bg-[#FFFFFF66] bg-opacity-50 rounded-2xl font-montserrat">
           <div class="gap-2 flex flex-col">
-            <div @click="selectedLanguage = 'RU'; emit('change-language', 'RU')" class="flex justify-between">
+            <div @click="x()" class="flex justify-between">
               <span>RU</span>
-              <CheckIcon v-if="selectedLanguage === 'RU'" class="w-6 h-6 text-green-700" />
+              <CheckIcon v-if="i18n.locale == 'ru'" class="w-6 h-6 text-green-700" />
             </div>
             <hr class="border-slate-500 w-full">
-            <div @click="selectedLanguage = 'CZ'; emit('change-language', 'CZ')" class="flex justify-between">
+            <div @click="i18n.locale = 'cz'" class="flex justify-between">
               <span>CZ</span>
-              <CheckIcon v-if="selectedLanguage === 'CZ'" class="w-6 h-6 text-green-700" />
+              <CheckIcon v-if="i18n.locale == 'cz'" class="w-6 h-6 text-green-700" />
             </div>
             <hr class="border-slate-500 w-full">
-            <div @click="selectedLanguage = 'EN'; emit('change-language', 'EN')" class="flex justify-between">
+            <div @click="i18n.locale = 'en'" class="flex justify-between">
               <span>EN</span>
-              <CheckIcon v-if="selectedLanguage === 'EN'" class="w-6 h-6 text-green-700" />
+              <CheckIcon v-if="i18n.locale == 'en'" class="w-6 h-6 text-green-700" />
             </div>
           </div>
         </div>

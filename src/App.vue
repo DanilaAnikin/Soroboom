@@ -14,35 +14,27 @@ import KidLike from './components/KidLike.vue';
 import Line from './components/Line.vue';
 import Last from './components/Last.vue';
 import MobilePinkPage from './components/MobilePinkPage.vue';
-import FourthMobile from './components/FourthMobile.vue';
 import Photo from './components/Photo.vue';
 import MobilePhoto from './components/MobilePhoto.vue';
-import { ref } from 'vue';
-
-function changeLanguage(language: 'RU' | 'CZ' | 'EN') {
-  window.location.href = language == 'RU' ? '/ru' : language == 'CZ' ? '/cz' : 'en';
-}
-
-const language = ref<string>(window.location.pathname.slice(1).toUpperCase());
 </script>
 
 <template>
-  <Main class="w-full flex justify-center font-montserrat" @change-language="changeLanguage($event)" :language />
-  <Second class="w-full flex justify-center font-montserrat" :language />
-  <Photo class="w-full sm:flex hidden justify-start font-montserrat" :language />
-  <MobilePhoto class="w-full sm:hidden justify-start font-montserrat" :language />
-  <Third class="w-full flex justify-center font-montserrat" :language />
-  <MobilePinkPage class="w-full flex justify-center sm:hidden font-montserrat" :language />
-  <!-- <Fourth class="w-full sm:flex hidden justify-center font-montserrat" :language /> -->
-  <FourthMobile class="w-full sm:hidden justify-center font-montserrat" :language />
-  <Formats class="w-full flex justify-center font-montserrat" :language />
-  <Sixth class="w-full flex justify-center font-montserrat" :language />
-  <SlideImages class="w-full flex justify-center font-montserrat" :language />
-  <Eight class="w-full flex justify-center font-montserrat" :language />
-  <Apps class="w-full flex justify-center font-montserrat" :language />
-  <SystemWorking class="w-full flex justify-center font-montserrat" :language />
-  <WeAreCool class="w-full flex justify-center font-montserrat" :language />
-  <KidLike class="w-full flex justify-center font-montserrat" :language />
-  <Line class="w-full flex justify-center font-montserrat" :language />
-  <Last class="w-full flex justify-center font-montserrat" :language />
+  <Main class="w-full flex justify-center font-montserrat" />
+  <Second class="w-full flex justify-center font-montserrat" />
+  <Photo class="w-full sm:flex hidden justify-start font-montserrat" />
+  <MobilePhoto class="w-full sm:hidden justify-start font-montserrat" />
+  <Third class="w-full flex justify-center font-montserrat" />
+  <MobilePinkPage class="w-full flex justify-center sm:hidden font-montserrat" />
+  <!-- <Fourth class="w-full sm:flex hidden justify-center font-montserrat" /> -->
+  <!-- <FourthMobile class="w-full sm:hidden justify-center font-montserrat" /> -->
+  <Formats class="w-full flex justify-center font-montserrat" />
+  <Sixth class="w-full flex justify-center font-montserrat" />
+  <SlideImages class="w-full flex justify-center font-montserrat" />
+  <Eight class="w-full flex justify-center font-montserrat" />
+  <Apps class="w-full flex justify-center font-montserrat" />
+  <SystemWorking class="w-full flex justify-center font-montserrat" />
+  <WeAreCool class="w-full flex justify-center font-montserrat" />
+  <KidLike class="w-full flex justify-center font-montserrat" />
+  <Line class="w-full flex justify-center font-montserrat" />
+  <Last class="w-full flex justify-center font-montserrat" />
 </template>

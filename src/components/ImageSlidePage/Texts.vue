@@ -2,10 +2,6 @@
 import { ref } from 'vue';
 import Check from '../../icons/Check.vue';
 
-defineProps<{
-  language: string,
-}>();
-
 const texts = ref<string[]>([
   'tv_with_a_large_diagonal',
   'large_training',

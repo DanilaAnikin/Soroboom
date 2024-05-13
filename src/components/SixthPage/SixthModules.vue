@@ -1,10 +1,6 @@
 <script setup lang="ts">
 import Backpack2 from '../../icons/Backpack2.vue';
 import DesktopMobile from '../../icons/DesktopMobile.vue';
-
-defineProps<{
-  language: string,
-}>();
 </script>
 
 <template>
