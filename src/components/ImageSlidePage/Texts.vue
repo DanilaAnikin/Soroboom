@@ -16,7 +16,7 @@ const texts = ref<string[]>([
     <div v-for="(text, index) in texts" class="flex justify-between gap-3">
       <Check :color="index%2==0 ? '#42BE63' : '#EC6A1F'" :size="25" class="w-1/12"/>
       <span class="w-11/12">
-        {{ $t('slide_images.texts.'+text) }}
+        {{ $t('locale.slide_images.texts.'+text) }}
       </span>
     </div>
   </div>

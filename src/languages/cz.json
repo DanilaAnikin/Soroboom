@@ -1,0 +1,204 @@
+{
+    "locale": {
+        "language": "CZ",
+        "first": {
+            "navbar": {
+              "prague": "PRAGUE",
+              "get_call": "OBJEDNAT HOVOR"
+            },
+            "navigation": {
+              "timetable": "plán",
+              "what_is_soroboom": "Co je Soroboom",
+              "blog": "Blog",
+              "gallery": "Galerie"
+            },
+            "text": {
+              "menthal_arithmetic": "Mentální aritmetika",
+              "development_of_intelligence": "Rozvoj inteligence",
+              "improves": "Vylepšíme",
+              "speed_of_decision_making": "Rychlost rozhodování",
+              "concentration_of_attention": "Koncentraci pozorování",
+              "speed_of_reactions": "Rychlost reakcí",
+              "memory": "Paměť",
+              "your_child": "vašeho dítěte metodou"
+            },
+            "contact": {
+              "join": "ZAPSAT SE NA",
+              "free_trial_lesson": "ZKUŠEBNÍ LEKCI ZDARMA",
+              "contact_form": {
+                "your_name": "VAŠE JMÉNO",
+                "your_email": "VÁŠ E-MAIL",
+                "join": "ZAPSAT SE"
+              }
+            },
+            "flex": {
+              "years_of_experience": "let zkušeností",
+              "in_child_development": "Ve vývoji dětí",
+              "children": "dětí",
+              "trained": "vyškoleni po celém světě",
+              "countries": "států",
+              "online": "online i offline vzdělávání"
+            }
+        },
+        "second": {
+            "give_your_child": "Dejte svému dítěti",
+            "start": "nejlepší start v životě",
+            "modules": {
+              "valuable": "Cenné",
+              "skills": "schopnosti",
+              "speed_of_reactions": "Rychlost reakcí",
+              "logical_thinking": "Logické myšlení",
+              "self_confidence": "Sebejistota",
+              "absorb": "Vstřebávat velké množství informací",
+              "benefits": "Výhody",
+              "improved_concentration": "Vylepšení koncentrace vnímání",
+              "exact_sciences": "Přesné vědy se dávají lehce",
+              "increased_school": "Zvýšení školního výkonu o",
+              "extension": "Vývoj",
+              "both_hemispheres": "Obou hemisfér mozku levá ( logická ) pravá ( obrazná )",
+              "cognitive_functions": "Kognitivních funkcí",
+              "brain_efficiency": "Účinnost mozku",
+              "for": "Pro",
+              "preschoolers": "předškoláky",
+              "let_us_help": "Pomůžeme s námahou ve škole",
+              "let_us_teach": "Naučíme základy mentální aritmetiky",
+              "increase": "Povýšíme sebejistotu dítěte ve svých silách",
+              "developing": "Rozvíjíme jemnou motoriku"
+            }
+        },
+        "thanking": {
+            "thanks": "Díky",
+            "method": "metodě",
+            "child_trains": "dítě trénuje",
+            "unique": "Unikátní metoda aktivuje práci obou hemisfér mozku dítěte",
+            "while": "Během tréninků dítě využívá japonské počítadlo Soroboom jako prostředek k řešení úloh, používá při tom svou fantazii"
+        },
+        "third": {
+            "the_soroboom_technique": "Metoda Soroboom® přispívá k tvorbě a posilování",
+            "new_neural_connections": "nových nervových vláken mozku dítěte",
+            "results_already": "výsledky už",
+            "after_first_month": "po 1. měsíci",
+            "of_training": "tréninků"
+        },
+        "mobile_pink_page": {
+            "only": "Dítě během tréninků v Soroboom zvyšuje produktivitu mozku několikrát, díky čemu se formují a posilují nová nervová vlákna"
+        },
+        "formats": {
+            "formats": "Typy",
+            "of_education": "výuky",
+            "online_offline": {
+              "online": "Online",
+              "the_class_is_held": "Lekce se konají",
+              "once_a_week": "jednou týdně",
+              "and_consists_of": "a skládají se ze",
+              "two_classes": "dvou lekcí po 35-45 min",
+              "with_proffesional_trainer": "s profesionálním trenérem",
+              "in_groups_up_to_six_people": "Ve skupinách do 6 lidí",
+              "in_school": "Ve škole",
+              "in_groups_up_to_ten_people": "Ve skupinách do 10 lidí"
+            }
+        },
+        "sixth": {
+            "how_the_training_works": "Jak se koná výuka",
+            "in_soroboom": "v Soroboom®?",
+            "visit": "navštěvovat",
+            "soroboom": "Soroboom",
+            "at_least_once_a_week": "stačí jednou týdně",
+            "modules": {
+              "online": "Online",
+              "classes": "lekce",
+              "you_will_need": "Bude potřeba 2 elektronická zařízení a přístup k internetu",
+              "thanks": "Díky vlastní online platformě lekcí se žák učí se stejnou efektivností jako ve škole",
+              "home_workouts": "Domácí tréninky vytvořeny pomocí metodických algoritmů s využitím AI",
+              "in_school": "ve škole",
+              "children_are_supervised": "Děti jsou pod dohledem kvalifikovaného trenéra po dobu času ve škole",
+              "during_the_lesson": "Během výuky trenér používá různé formy úkolů, aktivní i u stolu",
+              "thanks_to_small_groups": "Díky menším skupinám do 10 lidí trenér věnuje maximální pozornost každému dítěti"
+            }
+        },
+        "slide_images": {
+            "how_are_the_classes": "Jak se provádí",
+            "conducted": "lekce",
+            "texts": {
+              "tv_with_a_large_diagonal": "Velká televize na které se pouští trenažér pro trénink",
+              "large_training": "Velké trénovací nástěnné i podlahové počítadla",
+              "a_sofa": "Pohovka, na které si mohou děti odpočinout během pauzy",
+              "showcase_of_a_store": "Vitrína obchodu, ve kterém mohou děti získat odměny za mince Soroboom",
+              "spacious_bright": "Prostorové světlé kabinety s potřebným školním vybavením a demonstračnými materiály"
+            }
+        },
+        "eight": {
+            "calculator": {
+              "electronic": "Elektronické",
+              "abacus_e_soroboom": "počítadlo Abakus “E Soroboom“",
+              "innovative_teaching_method": "Inovativní metoda výuky"
+            },
+            "cards": {
+              "progress_tracking": "Sledování pokroku",
+              "in_two_clicks": "na 2 kliknutí",
+              "training_effectiveness": "Efektivnost výuky",
+              "increases": "se zvyšuje o 65%",
+              "individual_approach": "Individualní přístup",
+              "to_the_student": "k žákovi",
+              "patented": "Patentovaná",
+              "technology_one": "technologie No1 v",
+              "childrens_education": "dětském vzdělání"
+            }
+        },
+        "apps": {
+            "header": {
+              "try_our": "Vyzkoušejte naše",
+              "apps": "aplikace"
+            },
+            "content": {
+              "soroboom_ar": "Soroboom AR",
+              "soroboom_lite": "Soroboom Lite"
+            }
+        },
+        "system_working": {
+            "our_system_helps": "Náš systém pomáha",
+            "formation": "formování a posilování nových nervových vláken mozku",
+            "child_thanks": "dítěte díky systematickým tréninkům. Pomáháme dítěti maximálně rozvít intelekt a logické myšlení, což mu pomůže ve všech sférách života",
+            "innovative_teaching": "Inovativní metoda výuky vyvinutá našimi specialisty v oblasti vývoje intelektu u dětí",
+            "implementation": "Implementace umělé inteligence",
+            "helps_individualy": "pomáhá individuálně adaptovat zátěž pro každé dítě",
+            "unique_system": "Unikátní systém motivace výuky Soroboom",
+            "helps_child": "pomáhá dítěti",
+            "self_confidence": "1. Zvýšit sebejistotu i ego",
+            "increase_motivation": "2. Povýšit motivaci se učit",
+            "love_math": "3. Oblíbit si matematiku"
+        },
+        "we_are_cool": {
+            "header": {
+              "said": "Říká se",
+              "we_are_cool": "že jsme dobří"
+            },
+            "content": {
+              "marina": "Marina Tkač",
+              "date1": "12.02.24",
+              "thanks_trainer": "Díky trenéru Soroboom. Syn přichází domů vždy veselý a šťastný. Je velmi příjemné, když práce s dětmi je výběr duše, ne okolnností 🙏",
+              "oksana": "Oksana Lysenko",
+              "happy": "Jsme velmi rádi, že jsme si vybrali Soroboom pro naše dítě. Vizuální pokrok hned po několika lekcích. Dítě chodí na lekce s radostí a inspirací"
+            }
+        },
+        "kid_like": {
+            "ten_years": "Za 10 let naší práce na Ukrajině byla metoda vyzkoušena a zdokonalena",
+            "results": "Výsledky",
+            "our_trainings": "našich tréninků jsou potvrzeny úspěchy našich žáků"
+        },
+        "last": {
+            "left": {
+              "copyright": "©Copyright 2013-2024 by Iurii Novosolov",
+              "rights": "Všechna práva jsou chráněna",
+              "copies": "Jakékoli kopírování materiálů bez písemného souhlasu vlastníka je zakázáno"
+            },
+            "center": {
+              "menu": "Menu",
+              "franchise": "Franšíza"
+            },
+            "right": {
+              "countries": "SOROBOOM® V JINÝCH ZEMÍCH"
+            }
+        }
+    }
+}
