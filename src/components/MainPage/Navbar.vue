@@ -77,7 +77,7 @@ const formOpened = ref<boolean>(false);
             <SmallArrowDown :size="14" color="white" />
           </div>
         </div>
-        <div v-if="selectorOpened" class="absolute ml-4 top-[7%] py-2 px-3 w-[10%] bg-[#FFFFFF66] bg-opacity-50 rounded-2xl font-montserrat">
+        <div v-if="selectorOpened" class="absolute ml-4 top-[6.5%] py-2 px-3 w-[10%] bg-[#FFFFFF] bg-opacity-90 rounded-2xl font-montserrat">
           <div class="gap-2 flex flex-col">
             <div @click="changeLanguage('ru')" class="flex justify-between">
               <span>RU</span>
@@ -97,7 +97,7 @@ const formOpened = ref<boolean>(false);
         </div>
       </div>
       <div class="flex flex-col">
-        <div @click="formOpened = !formOpened" class="sm:m-0 ml-14 w-fit flex text-white items-center gap-4 p-4 rounded-3xl bg-[#EC6A1F] h-fit cursor-pointer">
+        <div @click="formOpened = !formOpened" class="sm:m-0 w-fit flex text-white items-center gap-4 p-4 rounded-3xl bg-[#EC6A1F] h-fit cursor-pointer">
           <Phone :size="14" color="white" />
           <div class="mobile:hidden sm:flex border-l border-white h-2"></div>
           <div class="mobile:hidden sm:flex gap-1 items-center">
