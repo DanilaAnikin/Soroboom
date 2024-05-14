@@ -9,6 +9,5 @@ const emit = defineEmits<{
     <span @click="emit('scroll', 'navbar')" class="text-xl font-semibold cursor-pointer">{{ $t('locale.last.center.menu') }}</span>
     <span @click="emit('scroll', 'timetable')" class="text-lg cursor-pointer">{{ $t('locale.first.navigation.timetable') }}</span>
     <span @click="emit('scroll', 'what_is_soroboom')" class="text-lg cursor-pointer">{{ $t('locale.first.navigation.what_is_soroboom') }}?</span>
-    <span @click="emit('scroll', 'franchise')" class="text-lg cursor-pointer">{{ $t('locale.last.center.franchise') }}</span>
   </div>
 </template>

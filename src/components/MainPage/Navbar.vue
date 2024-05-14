@@ -7,6 +7,11 @@ import Menu from '../../icons/Menu.vue';
 import { ref } from 'vue';
 import { CheckIcon } from '@heroicons/vue/24/solid';
 import { useI18n } from 'vue-i18n';
+import Navigation from './Navigation.vue';
+
+const emit = defineEmits<{
+  (e: 'scroll', scroller: string): void,
+}>();
 
 const { t, locale } = useI18n({ useScope: 'global' })
 
@@ -25,17 +30,17 @@ const formOpened = ref<boolean>(false);
       <div @click="menuOpened = !menuOpened" class="sm:hidden bg-white p-3 rounded-3xl shadow-sm shadow-slate-300 cursor-pointer">
         <Menu />
       </div>
-      <div v-if="menuOpened" class="cursor-pointer absolute left-5 top-20 rounded-3xl">
-        <div @click="selectorOpened = !selectorOpened" class="flex sm:hidden text-black items-center gap-4 bg-slate-200 p-4 rounded-3xl h-fit">
-          <World :size="14" color="black" />
-          <div class="border-l border-black h-2"></div>
+      <div v-if="menuOpened" class="cursor-pointer absolute left-5 top-20 rounded-3xl flex gap-4">
+        <div @click="selectorOpened = !selectorOpened" class="flex sm:hidden text-white items-center gap-4 bg-slate-600 p-4 rounded-3xl h-fit">
+          <World :size="14" color="white" />
+          <div class="border-l border-white h-2"></div>
           <div class="flex gap-1 items-center">
             <span class="font-montserrat text-sm">{{ $t('locale.language') }}</span>
-            <SmallArrowDown :size="14" color="black" />
+            <SmallArrowDown :size="14" color="white" />
           </div>
         </div>
-        <div v-if="selectorOpened" class="sm:hidden absolute ml-4 top-[5.5%] py-2 px-3 w-[6%] bg-[#FFFFFF66] bg-opacity-50 rounded-2xl font-montserrat">
-          <div class="gap-2 flex flex-col">
+        <div v-if="selectorOpened" class="sm:hidden absolute mt-16 py-3 sm:px-6 px-4 w-[30%] bg-slate-600 text-slate-100 rounded-2xl font-montserrat">
+          <div class="gap-2 flex flex-col w-full">
             <div @click="changeLanguage('ru')" class="flex justify-between">
               <span>RU</span>
               <CheckIcon v-if="$t('locale.language') == 'RU'" class="w-6 h-6 text-green-700" />
@@ -52,6 +57,7 @@ const formOpened = ref<boolean>(false);
             </div>
           </div>
         </div>
+        <Navigation @scroll="emit('scroll', $event)" />
       </div>
       <img class="sm:w-1/2 w-8/12" src="../../assets/SoroboomLogo.png" alt="Soroboom">
       <div class="mobile:hidden sm:flex h-fit items-center pr-4 justify-between rounded-3xl bg-white w-fit shadow-sm shadow-slate-200">

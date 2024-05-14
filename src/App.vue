@@ -16,27 +16,27 @@ import MobilePinkPage from './components/MobilePinkPage.vue';
 import Photo from './components/Photo.vue';
 import MobilePhoto from './components/MobilePhoto.vue';
 
-const sixth = document.getElementById('sixth');
 
 function scroll(element: string) {
-  if(element == 'timetable') {
+  const sixth = document.getElementById("#sixth");
+  const second = document.getElementById('#second');
+  const main = document.getElementById('#main');
 
+  if(element == 'timetable') {
+    second!.scrollIntoView();
   }
   else if(element == 'what_is_soroboom') {    
     sixth!.scrollIntoView();
   }
-  else if(element == 'menu') {
-
-  }
-  else if(element == 'franchise') {
-    
+  else if(element == 'navbar') {
+    main!.scrollIntoView();
   }
 }
 </script>
 
 <template>
-  <Main @scroll="scroll($event)" class="w-full flex justify-center font-montserrat" />
-  <Second class="w-full flex justify-center font-montserrat" />
+  <Main @scroll="scroll($event)" class="w-full flex justify-center font-montserrat" id="#main" />
+  <Second class="w-full flex justify-center font-montserrat" id="#second" />
   <Photo class="w-full sm:flex hidden justify-start font-montserrat" />
   <MobilePhoto class="w-full sm:hidden justify-start font-montserrat" />
   <Third class="w-full flex justify-center font-montserrat" />
@@ -44,7 +44,7 @@ function scroll(element: string) {
   <!-- <Fourth class="w-full sm:flex hidden justify-center font-montserrat" /> -->
   <!-- <FourthMobile class="w-full sm:hidden justify-center font-montserrat" /> -->
   <Formats class="w-full flex justify-center font-montserrat" />
-  <Sixth class="w-full flex justify-center font-montserrat" id="sixth" />
+  <Sixth class="w-full flex justify-center font-montserrat" id="#sixth" />
   <SlideImages class="w-full flex justify-center font-montserrat" />
   <Eight class="w-full flex justify-center font-montserrat" />
   <Apps class="w-full flex justify-center font-montserrat" />
@@ -52,5 +52,5 @@ function scroll(element: string) {
   <WeAreCool class="w-full flex justify-center font-montserrat" />
   <KidLike class="w-full flex justify-center font-montserrat" />
   <Line class="w-full flex justify-center font-montserrat" />
-  <Last class="w-full flex justify-center font-montserrat" />
+  <Last @scroll="scroll($event)" class="w-full flex justify-center font-montserrat" />
 </template>
