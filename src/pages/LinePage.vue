@@ -2,7 +2,7 @@
 import { ref } from 'vue';
 import Phone from '../icons/Phone.vue';
 
-const formOpened = ref<boolean>(true);
+const formOpened = ref<boolean>(false);
 </script>
 
 <template>
