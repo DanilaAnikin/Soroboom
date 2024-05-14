@@ -1,10 +1,14 @@
 <script setup lang="ts">
 import MainPage from '../pages/MainPage.vue';
+
+const emit = defineEmits<{
+  (e: 'scroll', scroller: string): void,
+}>();
 </script>
 <template>
   <div class="w-full flex justify-center">
     <div class="sm:w-8/12 w-full">
-      <MainPage />
+      <MainPage @scroll="emit('scroll', $event)" />
     </div>
     <div class="absolute xl:w-1/2 sm:w-9/12 md:w-7/12 max-w-7xl h-auto z-[-1] top-0 right-0">
       <img class="sm:flex hidden" src="/src/assets/MainBackground.png">

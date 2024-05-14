@@ -71,7 +71,7 @@ const formOpened = ref<boolean>(false);
             <SmallArrowDown :size="14" color="white" />
           </div>
         </div>
-        <div v-if="selectorOpened" class="absolute ml-4 top-[5.5%] py-2 px-3 w-[6%] bg-[#FFFFFF66] bg-opacity-50 rounded-2xl font-montserrat">
+        <div v-if="selectorOpened" class="absolute ml-4 top-[7%] py-2 px-3 w-[10%] bg-[#FFFFFF66] bg-opacity-50 rounded-2xl font-montserrat">
           <div class="gap-2 flex flex-col">
             <div @click="changeLanguage('ru')" class="flex justify-between">
               <span>RU</span>

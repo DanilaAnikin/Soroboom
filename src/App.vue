@@ -2,7 +2,6 @@
 import Main from './components/Main.vue';
 import Second from './components/Second.vue';
 import Third from './components/Third.vue';
-import Fourth from './components/Fourth.vue';
 import Formats from './components/Formats.vue';
 import Sixth from './components/Sixth.vue';
 import SlideImages from './components/SlideImages.vue';
@@ -16,10 +15,27 @@ import Last from './components/Last.vue';
 import MobilePinkPage from './components/MobilePinkPage.vue';
 import Photo from './components/Photo.vue';
 import MobilePhoto from './components/MobilePhoto.vue';
+
+const sixth = document.getElementById('sixth');
+
+function scroll(element: string) {
+  if(element == 'timetable') {
+
+  }
+  else if(element == 'what_is_soroboom') {    
+    sixth!.scrollIntoView();
+  }
+  else if(element == 'menu') {
+
+  }
+  else if(element == 'franchise') {
+    
+  }
+}
 </script>
 
 <template>
-  <Main class="w-full flex justify-center font-montserrat" />
+  <Main @scroll="scroll($event)" class="w-full flex justify-center font-montserrat" />
   <Second class="w-full flex justify-center font-montserrat" />
   <Photo class="w-full sm:flex hidden justify-start font-montserrat" />
   <MobilePhoto class="w-full sm:hidden justify-start font-montserrat" />
@@ -28,7 +44,7 @@ import MobilePhoto from './components/MobilePhoto.vue';
   <!-- <Fourth class="w-full sm:flex hidden justify-center font-montserrat" /> -->
   <!-- <FourthMobile class="w-full sm:hidden justify-center font-montserrat" /> -->
   <Formats class="w-full flex justify-center font-montserrat" />
-  <Sixth class="w-full flex justify-center font-montserrat" />
+  <Sixth class="w-full flex justify-center font-montserrat" id="sixth" />
   <SlideImages class="w-full flex justify-center font-montserrat" />
   <Eight class="w-full flex justify-center font-montserrat" />
   <Apps class="w-full flex justify-center font-montserrat" />
