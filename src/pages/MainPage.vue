@@ -12,7 +12,7 @@ const emit = defineEmits<{
 
 <template>
   <Navbar @scroll="emit('scroll', $event)" />
-  <Navigation @scroll="emit('scroll', $event)" class="mobile:hidden sm:flex mt-[2%]" />
+  <Navigation @scroll="emit('scroll', $event)" class="hidden sm:flex mt-[2%]" />
   <Text />
   <Contact />
   <Flex />
