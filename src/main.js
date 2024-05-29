@@ -5,6 +5,7 @@ import { createI18n } from 'vue-i18n';
 import ru from './languages/ru.json';
 import cz from './languages/cz.json';
 import en from './languages/en.json';
+import ua from './languages/ua.json';
 
 
 const i18n = createI18n({
@@ -14,6 +15,7 @@ const i18n = createI18n({
     ru,
     cz,
     en,
+    ua
   }
 })
 

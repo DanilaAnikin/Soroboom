@@ -9,9 +9,11 @@ import SixthModules from '../components/SixthPage/SixthModules.vue';
     <img v-if="$t('locale.language') == 'RU'" class="w-9/12 sm:flex hidden" src="../assets/SixthPageRU.png">
     <img v-if="$t('locale.language') == 'CZ'" class="w-9/12 sm:flex hidden" src="../assets/SixthPageCZ.png">
     <img v-if="$t('locale.language') == 'EN'" class="w-9/12 sm:flex hidden" src="../assets/SixthPageEN.png">
+    <img v-if="$t('locale.language') == 'UA'" class="w-9/12 sm:flex hidden" src="../assets/SixthPageUA.png">
     <img v-if="$t('locale.language') == 'RU'" class="w-full sm:hidden" src="../assets/MobileSixthPageRU.png">
     <img v-if="$t('locale.language') == 'CZ'" class="w-full sm:hidden" src="../assets/MobileSixthPageCZ.png">
     <img v-if="$t('locale.language') == 'EN'" class="w-full sm:hidden" src="../assets/MobileSixthPageEN.png">
+    <img v-if="$t('locale.language') == 'UA'" class="w-full sm:hidden" src="../assets/MobileSixthPageUA.png">
     <SixthModules />
   </div>
 </template>

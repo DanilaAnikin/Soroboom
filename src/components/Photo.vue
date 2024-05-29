@@ -8,6 +8,7 @@ import Thanking from './SecondPage/Thanking.vue';
       <img v-if="$t('locale.language') == 'RU'" class="w-full" src="../assets/SkillsImageRU.png" >
       <img v-if="$t('locale.language') == 'CZ'" class="w-full" src="../assets/SkillsImageCZ.png" >
       <img v-if="$t('locale.language') == 'EN'" class="w-full" src="../assets/SkillsImageEN.png" >
+      <img v-if="$t('locale.language') == 'UA'" class="w-full" src="../assets/SkillsImageUA.png" >
     </div>
     <div class="sm:w-5/12 w-3/12">
       <Thanking />

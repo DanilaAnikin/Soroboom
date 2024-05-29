@@ -15,7 +15,7 @@ const emit = defineEmits<{
 
 const { t, locale } = useI18n({ useScope: 'global' })
 
-function changeLanguage(newLanguage: 'ru' | 'cz' | 'en') {
+function changeLanguage(newLanguage: 'ru' | 'cz' | 'en' | 'ua') {
   locale.value = newLanguage;
 }
 
@@ -55,6 +55,11 @@ const formOpened = ref<boolean>(false);
               <span>EN</span>
               <CheckIcon v-if="$t('locale.language') == 'EN'" class="w-6 h-6 text-green-700" />
             </div>
+            <hr class="border-slate-500 w-full">
+            <div @click="changeLanguage('eu')" class="flex justify-between">
+              <span>UA</span>
+              <CheckIcon v-if="$t('locale.language') == 'UA'" class="w-6 h-6 text-green-700" />
+            </div>
           </div>
         </div>
         <Navigation @scroll="emit('scroll', $event)" />
@@ -92,6 +97,11 @@ const formOpened = ref<boolean>(false);
             <div @click="changeLanguage('en')" class="flex justify-between">
               <span>EN</span>
               <CheckIcon v-if="$t('locale.language') == 'EN'" class="w-6 h-6 text-green-700" />
+            </div>
+            <hr class="border-slate-500 w-full">
+            <div @click="changeLanguage('ua')" class="flex justify-between">
+              <span>UA</span>
+              <CheckIcon v-if="$t('locale.language') == 'UA'" class="w-6 h-6 text-green-700" />
             </div>
           </div>
         </div>

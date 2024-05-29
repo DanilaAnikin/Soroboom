@@ -8,6 +8,7 @@
         <img v-if="$t('locale.language') == 'RU'" class="absolute w-8/12 mt-[35%] ml-[15%]" src="../../assets/MobileThankingTopRU.png" alt="likes">
         <img v-if="$t('locale.language') == 'CZ'" class="absolute w-8/12 mt-[35%] ml-[15%]" src="../../assets/MobileThankingTopCZ.png" alt="likes">
         <img v-if="$t('locale.language') == 'EN'" class="absolute w-8/12 mt-[35%] ml-[15%]" src="../../assets/MobileThankingTopEN.png" alt="likes">
+        <img v-if="$t('locale.language') == 'UA'" class="absolute w-8/12 mt-[35%] ml-[15%]" src="../../assets/MobileThankingTopUA.png" alt="likes">
         <img class="ml-[-10%] w-full" src="../../assets/MobileThanking.png" alt="likes">
       </div>
     </div>
