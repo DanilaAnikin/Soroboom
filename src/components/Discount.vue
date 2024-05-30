@@ -19,7 +19,7 @@ const list = ref<string[]>([
                 <span class="text-[#EC6A1F] text-3xl font-bold text-center">-10% <span class="text-black"> {{ $t('locale.discount.firstMonth') }}</span></span>
             </div>
             <div class="flex justify-between w-full flex-col sm:flex-row items-center">
-                <div class="flex flex-col gap-6 w-1/2">
+                <div class="flex flex-col gap-6 sm:w-1/2 items-center sm:items-start">
                     <span class="text-2xl font-semibold">{{ $t('locale.discount.what') }} <span class="text-[#EC6A1F]"> {{ $t('locale.discount.subscription') }}:</span></span>
                     <div>
                         <div v-for="(item, index) in list" class="flex py-2 gap-3">
