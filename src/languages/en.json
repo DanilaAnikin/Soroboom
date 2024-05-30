@@ -127,6 +127,47 @@
               "spacious_bright": "Spacious bright cabinets with the necessary school equipment and demonstration materials"
             }
         },
+        "aboutTeachers": {
+            "about": "About",
+            "teachers": "teachers",
+            "czech": "Czech",
+            "teacher": "teacher",
+            "Ukraniane": "Ukrainian",
+            "Russian": "Russian",
+            "completed": "Completed",
+            "qualificated": "qualified training",
+            "has": "has experience in the children's field"
+        },
+        "whatWillYouGet": {
+            "what": "What will you",
+            "get": "get",
+            "come": "attend Soroboom",
+            "atLeast": "at least once a week",
+            "book": "Textbook",
+            "different": "Various tasks for brain development",
+            "rules": "Rules and tips",
+            "develops": "Develops imagination",
+            "homework": "Homework in a convenient format",
+            "abacus": "Abacus",
+            "develops2": "Develops fine motor skills",
+            "helps": "Helps count large volumes of numbers",
+            "personal": "Personal abacus at home",
+            "use": "Used in school during classes"
+        },
+        "discount": {
+            "firstMonth": "for the first month of training",
+            "what": "What is included",
+            "subscription": "in the subscription",
+            "fourToFive": "4-5 group lessons",
+            "full": "Full access to the training application",
+            "homework": "Homework from the coach",
+            "olympics": "Olympics",
+            "consultation": "Consultation with the coach",
+            "one": "1 individual lesson (optional)",
+            "month": "month",
+            "months": "months",
+            "crown": "crowns"
+        },
         "eight": {
             "calculator": {
               "electronic": "Electronic",
@@ -182,7 +223,8 @@
             }
         },
         "kid_like": {
-            "ten_years": "In 10 years of our work in Ukraine, the method has been tried and perfected",
+            "ten_years": "In 10 years of our work",
+            "ukraine": "in Ukraine, the method has been tried and perfected",
             "results": "Results",
             "our_trainings": "Of our trainings are confirmed by the successes of our students"
         },

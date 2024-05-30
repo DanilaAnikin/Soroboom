@@ -12,6 +12,7 @@ export default {
     },
     screens: {
       'mobile': '380px',
+      'xs': '550px',
       'sm': '800px',
       'lg': '1024px',
       'xl': '1280px',

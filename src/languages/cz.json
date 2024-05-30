@@ -127,6 +127,47 @@
               "spacious_bright": "Prostorové světlé kabinety s potřebným školním vybavením a demonstračnými materiály"
             }
         },
+        "aboutTeachers": {
+            "about": "O",
+            "teachers": "učitelích",
+            "czech": "Český",
+            "teacher": "učitel",
+            "Ukraniane": "Ukrajinský",
+            "Russian": "Ruský",
+            "completed": "Dokončili",
+            "qualificated": "kvalifikované školení",
+            "has": "má zkušenosti v dětské oblasti"
+        },
+        "whatWillYouGet": {
+            "what": "Co",
+            "get": "dostanete",
+            "come": "navštěvujte Soroboom",
+            "atLeast": "alespoň jednou týdně",
+            "book": "Učebnice",
+            "different": "Různé úkoly pro rozvoj mozku",
+            "rules": "Pravidla a tipy",
+            "develops": "Rozvíjí představivost",
+            "homework": "Domácí úkoly v pohodlném formátu",
+            "abacus": "Počítadlo",
+            "develops2": "Rozvíjí jemnou motoriku",
+            "helps": "Pomáhá počítat velké objemy čísel",
+            "personal": "Osobní počítadlo doma",
+            "use": "Používáme ve škole během výuky"
+        },
+        "discount": {
+            "firstMonth": "na první měsíc školení",
+            "what": "Co je zahrnuto",
+            "subscription": "v předplatném",
+            "fourToFive": "4-5 skupinových lekcí",
+            "full": "Plný přístup k tréninkové aplikaci",
+            "homework": "Domácí úkoly od trenéra",
+            "olympics": "Olympiády",
+            "consultation": "Konzultace s trenérem",
+            "one": "1 individuální lekce (volitelné)",
+            "month": "měsíc",
+            "months": "měsíce",
+            "crown": "korun"
+        },
         "eight": {
             "calculator": {
               "electronic": "Elektronické",
@@ -182,7 +223,8 @@
             }
         },
         "kid_like": {
-            "ten_years": "Za 10 let naší práce na Ukrajině byla metoda vyzkoušena a zdokonalena",
+            "ten_years": "Za 10 let naší práce",
+            "ukraine": "na Ukrajině byla metoda vyzkoušena a zdokonalena",
             "results": "Výsledky",
             "our_trainings": "našich tréninků jsou potvrzeny úspěchy našich žáků"
         },

@@ -15,7 +15,9 @@ import Last from './components/Last.vue';
 import MobilePinkPage from './components/MobilePinkPage.vue';
 import Photo from './components/Photo.vue';
 import MobilePhoto from './components/MobilePhoto.vue';
-
+import AboutTeachers from './components/AboutTeachers.vue';
+import WhatWillYouGet from './components/WhatWillYouGet.vue';
+import Discount from './components/Discount.vue';
 
 function scroll(element: string) {
   const sixth = document.getElementById("#sixth");
@@ -46,8 +48,11 @@ function scroll(element: string) {
   <Formats class="w-full flex justify-center font-montserrat" />
   <Sixth class="w-full flex justify-center font-montserrat" id="#sixth" />
   <SlideImages class="w-full flex justify-center font-montserrat" />
+  <AboutTeachers class="w-full flex justify-center font-montserrat" />
+  <WhatWillYouGet class="w-full flex justify-center font-montserrat" />
   <Eight class="w-full flex justify-center font-montserrat" />
   <Apps class="w-full flex justify-center font-montserrat" />
+  <Discount class="w-full flex justify-center font-montserrat" />
   <SystemWorking class="w-full flex justify-center font-montserrat" />
   <WeAreCool class="w-full flex justify-center font-montserrat" />
   <KidLike class="w-full flex justify-center font-montserrat" />
