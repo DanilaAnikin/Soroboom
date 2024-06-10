@@ -25,8 +25,8 @@ const formOpened = ref<boolean>(false);
 </script>
 
 <template>
-  <div class="flex justify-between py-4 font-medium items-center">
-    <div class="flex items-center justify-between px-4 sm:px-0 sm:gap-0 gap-16">
+  <div class="flex justify-between py-4 font-medium items-center w-full">
+    <div class="flex items-center justify-between pl-4 sm:px-0 sm:gap-0">
       <div @click="menuOpened = !menuOpened" id="menuHamburgerMobile" class="sm:hidden bg-white p-3 rounded-3xl shadow-sm shadow-slate-300 cursor-pointer">
         <Menu />
       </div>
@@ -72,7 +72,7 @@ const formOpened = ref<boolean>(false);
         <span class="font-montserrat px-4 text-sm">{{ $t('locale.first.navbar.prague') }}</span>
       </div>
     </div>
-    <div class="flex h-fit justify-between items-center w-1/3">
+    <div class="flex h-fit items-center w-1/3 justify-center sm:gap-6">
       <div class="hidden sm:flex cursor-pointer">
         <div @click="selectorOpened = !selectorOpened" id="languageSelectorButton" class="sm:flex text-white items-center gap-4 p-4 rounded-3xl bg-[#FFFFFF33] h-fit">
           <World :size="14" color="white" />
@@ -114,16 +114,16 @@ const formOpened = ref<boolean>(false);
             <span class="font-montserrat text-sm font-semibold">{{ $t('locale.first.navbar.get_call') }}</span>
           </div>
         </div>
-        <div v-if="formOpened" id="form" class="p-4 rounded-xl shadow-sm shadow-slate-400 sm:w-fit bg-white absolute top-20 mobile:right-5">
-          <form action="https://submit-form.com/Ijw2sgzQt" class="flex gap-4 flex-col">
-            <input name="Name" class="px-5 py-3 outline-none rounded-3xl border border-slate-400 placeholder:text-sm text-sm placeholder:font-semibold placeholder:text-slate-500" type="text" :placeholder="`${ $t('locale.first.contact.contact_form.your_name') }`">
-            <input name="Email" class="px-5 py-3 outline-none rounded-3xl border border-slate-400 placeholder:text-sm text-sm placeholder:font-semibold placeholder:text-slate-500" type="text" :placeholder="`${ $t('locale.first.contact.contact_form.your_email') }`">
-            <button type="submit" class="cursor-pointer bg-[#EC6A1F] rounded-3xl w-full text-center justify-center sm:py-3 sm:px-6 py-3 flex items-center">
-              <span class="text-sm text-white font-semibold">{{ $t('locale.first.contact.contact_form.join') }}</span>
-            </button>
-          </form>
-        </div>
       </div>
     </div>
+  </div>
+  <div v-if="formOpened" id="form" class="p-4 rounded-xl shadow-sm shadow-slate-400 bg-white absolute top-20 sm:w-8/12 w-full">
+    <form action="https://submit-form.com/Ijw2sgzQt" class="flex gap-4 flex-col sm:flex-row w-full">
+      <input name="Name" class="px-5 py-3 outline-none rounded-3xl border border-slate-400 placeholder:text-sm text-sm placeholder:font-semibold placeholder:text-slate-500 right-0 sm:w-8/12" type="text" :placeholder="`${ $t('locale.first.contact.contact_form.your_name') }`">
+      <input name="Email" class="px-5 py-3 outline-none rounded-3xl border border-slate-400 placeholder:text-sm text-sm placeholder:font-semibold placeholder:text-slate-500 sm:w-8/12" type="text" :placeholder="`${ $t('locale.first.contact.contact_form.your_email') }`">
+      <button type="submit" class="cursor-pointer bg-[#EC6A1F] rounded-3xl sm:w-fit text-center justify-center sm:py-3 sm:px-8 py-3 flex items-center">
+        <span class="text-sm text-white font-semibold">{{ $t('locale.first.contact.contact_form.join') }}</span>
+      </button>
+    </form>
   </div>
 </template>
