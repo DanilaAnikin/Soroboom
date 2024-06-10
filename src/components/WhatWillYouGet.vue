@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div class="flex w-full justify-center py-12 flex-wrap">
+  <div class="flex w-full justify-center flex-wrap">
     <img class="hidden sm:flex" src="../assets/Book.png">
     <div class="flex-col justify-center items-center text-center flex gap-4">
         <span class="text-[#EC6A1F] text-3xl font-semibold">{{ $t('locale.whatWillYouGet.what') }} <span class="text-black"> {{ $t('locale.whatWillYouGet.get') }}? </span></span>

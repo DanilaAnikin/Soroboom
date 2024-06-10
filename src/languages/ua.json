@@ -117,8 +117,8 @@
             }
         },
         "slide_images": {
-            "how_are_the_classes": "Як проводяться заняття",
-            "conducted": "Проведено",
+            "how_are_the_classes": "Як проходять",
+            "conducted": "заняття",
             "texts": {
               "tv_with_a_large_diagonal": "Великий телевізор, на якому відтворюється тренер для тренувань",
               "large_training": "Великі навчальні стінні та підлогові лічильники",

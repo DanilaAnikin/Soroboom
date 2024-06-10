@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-center sm:flex-row flex-col items-center sm:gap-4 gap-44 sm:mt-12 mt-8">
+  <div class="flex justify-center sm:flex-row flex-col items-center sm:gap-4 gap-12 mt-8">
     <div class="flex flex-col w-11/12 sm:w-full items-center">
       <img src="../../assets/Online.png">
       <div class="text-center flex items-center flex-col gap-2 shadow-sm shadow-slate-400 px-8 pb-5 sm:w-9/12 w-11/12 rounded-2xl bg-white -mt-12">
