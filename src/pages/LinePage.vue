@@ -3,6 +3,11 @@ import { ref } from 'vue';
 import Phone from '../icons/Phone.vue';
 
 const formOpened = ref<boolean>(false);
+
+const name1 = ref<string>("");
+const name2 = ref<string>("");
+const email1 = ref<string>("");
+const email2 = ref<string>("");
 </script>
 
 <template>
@@ -18,9 +23,9 @@ const formOpened = ref<boolean>(false);
       </div>
     </div>
     <div v-if="formOpened" id="formMobile" class="p-4 rounded-xl shadow-sm shadow-slate-400 sm:w-fit bg-white absolute mt-48">
-      <form action="https://submit-form.com/Ijw2sgzQt" class="flex flex-col gap-4">
-        <input name="Name" class="px-5 py-3 outline-none rounded-3xl border border-slate-400 placeholder:text-sm text-sm placeholder:font-semibold placeholder:text-slate-500" type="text" :placeholder="`${ $t('locale.first.contact.contact_form.your_name') }`">
-        <input name="Email" class="px-5 py-3 outline-none rounded-3xl border border-slate-400 placeholder:text-sm text-sm placeholder:font-semibold placeholder:text-slate-500" type="text" :placeholder="`${ $t('locale.first.contact.contact_form.your_email') }`">
+      <form :action="`${name1 && email1 ? 'https://submit-form.com/Ijw2sgzQt' : ''}`" class="flex flex-col gap-4">
+        <input v-model="name1" name="Name" class="px-5 py-3 outline-none rounded-3xl border border-slate-400 placeholder:text-sm text-sm placeholder:font-semibold placeholder:text-slate-500" type="text" :placeholder="`${ $t('locale.first.contact.contact_form.your_name') }`">
+        <input v-model="email1" name="Email" class="px-5 py-3 outline-none rounded-3xl border border-slate-400 placeholder:text-sm text-sm placeholder:font-semibold placeholder:text-slate-500" type="text" :placeholder="`${ $t('locale.first.contact.contact_form.your_email') }`">
         <button type="submit" class="cursor-pointer bg-[#EC6A1F] rounded-3xl w-full text-center justify-center sm:py-3 sm:px-6 py-3 flex items-center">
           <span class="text-sm text-white font-semibold">{{ $t('locale.first.contact.contact_form.join') }}</span>
         </button>
@@ -39,9 +44,9 @@ const formOpened = ref<boolean>(false);
       </div>
     </div>
     <div v-if="formOpened" id="formPC" class="p-4 rounded-xl shadow-sm shadow-slate-400 sm:w-fit bg-white absolute mt-36 right-[17%]">
-      <form action="https://submit-form.com/Ijw2sgzQt" class="flex gap-4">
-        <input name="Name" class="px-5 py-3 outline-none rounded-3xl border border-slate-400 placeholder:text-sm text-sm placeholder:font-semibold placeholder:text-slate-500" type="text" :placeholder="`${ $t('locale.first.contact.contact_form.your_name') }`">
-        <input name="Email" class="px-5 py-3 outline-none rounded-3xl border border-slate-400 placeholder:text-sm text-sm placeholder:font-semibold placeholder:text-slate-500" type="text" :placeholder="`${ $t('locale.first.contact.contact_form.your_email') }`">
+      <form :action="`${name2 && email2 ? 'https://submit-form.com/Ijw2sgzQt' : ''}`" class="flex gap-4">
+        <input v-model="name2" name="Name" class="px-5 py-3 outline-none rounded-3xl border border-slate-400 placeholder:text-sm text-sm placeholder:font-semibold placeholder:text-slate-500" type="text" :placeholder="`${ $t('locale.first.contact.contact_form.your_name') }`">
+        <input v-model="email2" name="Email" class="px-5 py-3 outline-none rounded-3xl border border-slate-400 placeholder:text-sm text-sm placeholder:font-semibold placeholder:text-slate-500" type="text" :placeholder="`${ $t('locale.first.contact.contact_form.your_email') }`">
         <button type="submit" class="cursor-pointer bg-[#EC6A1F] rounded-3xl w-full text-center justify-center sm:py-3 sm:px-6 py-3 flex items-center">
           <span class="text-sm text-white font-semibold">{{ $t('locale.first.contact.contact_form.join') }}</span>
         </button>

@@ -22,6 +22,10 @@ function changeLanguage(newLanguage: 'ru' | 'cz' | 'en' | 'ua') {
 const selectorOpened = ref<boolean>(false);
 const menuOpened = ref<boolean>(false);
 const formOpened = ref<boolean>(false);
+
+const name = ref<string>("");
+const email = ref<string>("");
+
 </script>
 
 <template>
@@ -118,9 +122,9 @@ const formOpened = ref<boolean>(false);
     </div>
   </div>
   <div v-if="formOpened" id="form" class="p-4 rounded-xl shadow-sm shadow-slate-400 bg-white absolute top-20 sm:w-8/12 w-full">
-    <form action="https://submit-form.com/Ijw2sgzQt" class="flex gap-4 flex-col sm:flex-row w-full">
-      <input name="Name" class="px-5 py-3 outline-none rounded-3xl border border-slate-400 placeholder:text-sm text-sm placeholder:font-semibold placeholder:text-slate-500 right-0 sm:w-8/12" type="text" :placeholder="`${ $t('locale.first.contact.contact_form.your_name') }`">
-      <input name="Email" class="px-5 py-3 outline-none rounded-3xl border border-slate-400 placeholder:text-sm text-sm placeholder:font-semibold placeholder:text-slate-500 sm:w-8/12" type="text" :placeholder="`${ $t('locale.first.contact.contact_form.your_email') }`">
+    <form :action="`${name && email ? 'https://submit-form.com/Ijw2sgzQt' : ''}`" class="flex gap-4 flex-col sm:flex-row w-full">
+      <input v-model="name" name="Name" class="px-5 py-3 outline-none rounded-3xl border border-slate-400 placeholder:text-sm text-sm placeholder:font-semibold placeholder:text-slate-500 right-0 sm:w-8/12" type="text" :placeholder="`${ $t('locale.first.contact.contact_form.your_name') }`">
+      <input v-model="email" name="Email" class="px-5 py-3 outline-none rounded-3xl border border-slate-400 placeholder:text-sm text-sm placeholder:font-semibold placeholder:text-slate-500 sm:w-8/12" type="text" :placeholder="`${ $t('locale.first.contact.contact_form.your_email') }`">
       <button type="submit" class="cursor-pointer bg-[#EC6A1F] rounded-3xl sm:w-fit text-center justify-center sm:py-3 sm:px-8 py-3 flex items-center">
         <span class="text-sm text-white font-semibold">{{ $t('locale.first.contact.contact_form.join') }}</span>
       </button>
