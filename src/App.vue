@@ -19,6 +19,11 @@ import AboutTeachers from './components/AboutTeachers.vue';
 import WhatWillYouGet from './components/WhatWillYouGet.vue';
 import Discount from './components/Discount.vue';
 
+import { RouterLink } from 'vue-router';
+import { ref } from 'vue';
+
+const thankingOpened = ref<boolean>(false);
+
 function scroll(element: string) {
   const sixth = document.getElementById("#sixth");
   const second = document.getElementById('#second');
@@ -37,25 +42,29 @@ function scroll(element: string) {
 </script>
 
 <template>
-  <Main @scroll="scroll($event)" class="w-full flex justify-center font-montserrat" id="#main" />
-  <Second class="w-full flex justify-center font-montserrat" id="#second" />
-  <Photo class="w-full sm:flex hidden justify-start font-montserrat" />
-  <MobilePhoto class="w-full sm:hidden justify-start font-montserrat" />
-  <Third class="w-full flex justify-center font-montserrat" />
-  <MobilePinkPage class="w-full flex justify-center sm:hidden font-montserrat" />
-  <!-- <Fourth class="w-full sm:flex hidden justify-center font-montserrat" /> -->
-  <!-- <FourthMobile class="w-full sm:hidden justify-center font-montserrat" /> -->
-  <Formats class="w-full flex justify-center font-montserrat" />
-  <Sixth class="w-full flex justify-center font-montserrat" id="#sixth" />
-  <SlideImages class="w-full flex justify-center font-montserrat" />
-  <AboutTeachers class="w-full flex justify-center font-montserrat" />
-  <WhatWillYouGet class="w-full flex justify-center font-montserrat" />
-  <Eight class="w-full flex justify-center font-montserrat" />
-  <Apps class="w-full flex justify-center font-montserrat" />
-  <Discount class="w-full flex justify-center font-montserrat" />
-  <SystemWorking class="w-full flex justify-center font-montserrat" />
-  <WeAreCool class="w-full flex justify-center font-montserrat" />
-  <KidLike class="w-full flex justify-center font-montserrat" />
-  <Line class="w-full flex justify-center font-montserrat" />
-  <Last @scroll="scroll($event)" class="w-full flex justify-center font-montserrat" />
+  <RouterLink to="/thanking-page" v-if="!thankingOpened" @click="thankingOpened=true" class="w-full flex justify-center font-montserrat" id="#thanking-page"> Click </RouterLink>
+  <main v-if="thankingOpened">
+    <RouterView />
+  </main>
+  <div v-else>
+    <Main @scroll="scroll($event)" class="w-full flex justify-center font-montserrat" id="#main" />
+    <Second class="w-full flex justify-center font-montserrat" id="#second" />
+    <Photo class="w-full sm:flex hidden justify-start font-montserrat" />
+    <MobilePhoto class="w-full sm:hidden justify-start font-montserrat" />
+    <Third class="w-full flex justify-center font-montserrat" />
+    <MobilePinkPage class="w-full flex justify-center sm:hidden font-montserrat" />
+    <Formats class="w-full flex justify-center font-montserrat" />
+    <Sixth class="w-full flex justify-center font-montserrat" id="#sixth" />
+    <SlideImages class="w-full flex justify-center font-montserrat" />
+    <AboutTeachers class="w-full flex justify-center font-montserrat" />
+    <WhatWillYouGet class="w-full flex justify-center font-montserrat" />
+    <Eight class="w-full flex justify-center font-montserrat" />
+    <Apps class="w-full flex justify-center font-montserrat" />
+    <Discount class="w-full flex justify-center font-montserrat" />
+    <SystemWorking class="w-full flex justify-center font-montserrat" />
+    <WeAreCool class="w-full flex justify-center font-montserrat" />
+    <KidLike class="w-full flex justify-center font-montserrat" />
+    <Line class="w-full flex justify-center font-montserrat" />
+    <Last @scroll="scroll($event)" class="w-full flex justify-center font-montserrat" />    
+  </div>
 </template>
